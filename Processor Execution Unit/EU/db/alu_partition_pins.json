@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ALUO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RFA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RFA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RFA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RFA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RFB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RFB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RFB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RFB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RFC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RFC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RFC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RFC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Operations[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
