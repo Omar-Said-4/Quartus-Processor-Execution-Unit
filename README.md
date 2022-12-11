@@ -1,3 +1,3 @@
 # Quartus-Processor-Execution-Unit
 ## ALU Description
-![Capture](https://user-images.githubusercontent.com/87082462/206883326-b0f22d73-b7cd-48aa-90ae-68f34dbdd72b.PNG)
+![Capture](https://user-images.githubusercontent.com/87082462/206883356-deedd6eb-6132-4353-9e95-b69ad10faab9.PNG)
