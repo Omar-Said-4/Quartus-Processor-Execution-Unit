@@ -1,0 +1,3680 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/17/2022 17:19:32"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Block5
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Block5_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [1:0] ALUS;
+reg CLK;
+reg [1:0] OPoneS;
+reg [1:0] OPtwoS;
+reg pin_name1;
+reg [3:0] V;
+// wires                                               
+wire [3:0] ALUO;
+wire [3:0] RFA;
+wire [3:0] RFB;
+wire [3:0] RFC;
+
+// assign statements (if any)                          
+Block5 i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUO(ALUO),
+	.ALUS(ALUS),
+	.CLK(CLK),
+	.OPoneS(OPoneS),
+	.OPtwoS(OPtwoS),
+	.pin_name1(pin_name1),
+	.RFA(RFA),
+	.RFB(RFB),
+	.RFC(RFC),
+	.V(V)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// ALUS[ 1 ]
+initial
+begin
+	ALUS[1] = 1'b1;
+	ALUS[1] = #2355 1'b0;
+	ALUS[1] = #4400 1'b1;
+	ALUS[1] = #5600 1'b0;
+	ALUS[1] = #4400 1'b1;
+	ALUS[1] = #4894 1'b0;
+	ALUS[1] = #5300 1'b1;
+	ALUS[1] = #6085 1'b0;
+	ALUS[1] = #12000 1'b1;
+	ALUS[1] = #6418 1'b0;
+	ALUS[1] = #4067 1'b1;
+	ALUS[1] = #2599 1'b0;
+	ALUS[1] = #4067 1'b1;
+	ALUS[1] = #2599 1'b0;
+	ALUS[1] = #4067 1'b1;
+	ALUS[1] = #1149 1'b0;
+	ALUS[1] = #2389 1'b1;
+	ALUS[1] = #5600 1'b0;
+	ALUS[1] = #4400 1'b1;
+	ALUS[1] = #5600 1'b0;
+	ALUS[1] = #2011 1'b1;
+	# 2209;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #3733 1'b1;
+		# 2933;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #3733 1'b1;
+	ALUS[1] = #2792 1'b0;
+	ALUS[1] = #2800 1'b1;
+	ALUS[1] = #3866 1'b0;
+	ALUS[1] = #2800 1'b1;
+	ALUS[1] = #3866 1'b0;
+	ALUS[1] = #2800 1'b1;
+	ALUS[1] = #1802 1'b0;
+	ALUS[1] = #3800 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #4200 1'b1;
+		# 2466;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #402 1'b1;
+	ALUS[1] = #2967 1'b0;
+	ALUS[1] = #12400 1'b1;
+	ALUS[1] = #4633 1'b0;
+	ALUS[1] = #6898 1'b1;
+	ALUS[1] = #6000 1'b0;
+	ALUS[1] = #7102 1'b1;
+	ALUS[1] = #3149 1'b0;
+	ALUS[1] = #6600 1'b1;
+	ALUS[1] = #251 1'b0;
+	ALUS[1] = #1258 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #4400 1'b1;
+		# 2266;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #3144 1'b1;
+	ALUS[1] = #8 1'b0;
+	ALUS[1] = #6800 1'b1;
+	ALUS[1] = #5557 1'b0;
+	ALUS[1] = #5500 1'b1;
+	ALUS[1] = #2135 1'b0;
+	ALUS[1] = #931 1'b1;
+	ALUS[1] = #4400 1'b0;
+	ALUS[1] = #5600 1'b1;
+	ALUS[1] = #4400 1'b0;
+	ALUS[1] = #4669 1'b1;
+	ALUS[1] = #3160 1'b0;
+	ALUS[1] = #4500 1'b1;
+	ALUS[1] = #5500 1'b0;
+	ALUS[1] = #4500 1'b1;
+	ALUS[1] = #3262 1'b0;
+	ALUS[1] = #3300 1'b1;
+	ALUS[1] = #1700 1'b0;
+	ALUS[1] = #3300 1'b1;
+	ALUS[1] = #4885 1'b0;
+	ALUS[1] = #4900 1'b1;
+	ALUS[1] = #993 1'b0;
+	ALUS[1] = #1103 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #2034 1'b1;
+		# 1299;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #3296 1'b1;
+	ALUS[1] = #1550 1'b0;
+	ALUS[1] = #3450 1'b1;
+	ALUS[1] = #1550 1'b0;
+	ALUS[1] = #1086 1'b1;
+	ALUS[1] = #702 1'b0;
+	ALUS[1] = #2500 1'b1;
+	ALUS[1] = #2500 1'b0;
+	ALUS[1] = #2500 1'b1;
+	ALUS[1] = #1798 1'b0;
+	ALUS[1] = #71 1'b1;
+	ALUS[1] = #1550 1'b0;
+	ALUS[1] = #3450 1'b1;
+	ALUS[1] = #1550 1'b0;
+	ALUS[1] = #6754 1'b1;
+	ALUS[1] = #4700 1'b0;
+	ALUS[1] = #6262 1'b1;
+	ALUS[1] = #4800 1'b0;
+	ALUS[1] = #863 1'b1;
+	ALUS[1] = #2157 1'b0;
+	ALUS[1] = #2650 1'b1;
+	ALUS[1] = #2350 1'b0;
+	ALUS[1] = #2650 1'b1;
+	ALUS[1] = #2213 1'b0;
+	ALUS[1] = #11200 1'b1;
+	ALUS[1] = #7484 1'b0;
+	ALUS[1] = #10800 1'b1;
+	ALUS[1] = #8496 1'b0;
+	ALUS[1] = #1705 1'b1;
+	ALUS[1] = #1900 1'b0;
+	ALUS[1] = #3100 1'b1;
+	ALUS[1] = #1900 1'b0;
+	ALUS[1] = #1395 1'b1;
+	ALUS[1] = #2240 1'b0;
+	ALUS[1] = #5400 1'b1;
+	ALUS[1] = #4600 1'b0;
+	ALUS[1] = #5400 1'b1;
+	ALUS[1] = #2360 1'b0;
+	ALUS[1] = #5306 1'b1;
+	ALUS[1] = #4200 1'b0;
+	ALUS[1] = #5800 1'b1;
+	ALUS[1] = #4200 1'b0;
+	ALUS[1] = #3815 1'b1;
+	ALUS[1] = #6200 1'b0;
+	ALUS[1] = #10479 1'b1;
+	# 1010;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #1400 1'b1;
+		# 1933;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #1400 1'b1;
+	ALUS[1] = #924 1'b0;
+	ALUS[1] = #1525 1'b1;
+	ALUS[1] = #1850 1'b0;
+	ALUS[1] = #3150 1'b1;
+	ALUS[1] = #1850 1'b0;
+	ALUS[1] = #6915 1'b1;
+	ALUS[1] = #3100 1'b0;
+	ALUS[1] = #6900 1'b1;
+	ALUS[1] = #3100 1'b0;
+	ALUS[1] = #4969 1'b1;
+	ALUS[1] = #6000 1'b0;
+	ALUS[1] = #4000 1'b1;
+	ALUS[1] = #6000 1'b0;
+	ALUS[1] = #641 1'b1;
+	ALUS[1] = #1346 1'b0;
+	ALUS[1] = #5500 1'b1;
+	ALUS[1] = #4500 1'b0;
+	ALUS[1] = #5500 1'b1;
+	ALUS[1] = #7943 1'b0;
+	ALUS[1] = #4800 1'b1;
+	ALUS[1] = #5200 1'b0;
+	ALUS[1] = #4800 1'b1;
+	ALUS[1] = #411 1'b0;
+	ALUS[1] = #3462 1'b1;
+	ALUS[1] = #1500 1'b0;
+	ALUS[1] = #3500 1'b1;
+	ALUS[1] = #1500 1'b0;
+	ALUS[1] = #38 1'b1;
+	ALUS[1] = #5819 1'b0;
+	ALUS[1] = #10200 1'b1;
+	ALUS[1] = #3981 1'b0;
+	ALUS[1] = #96 1'b1;
+	# 3266;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #3400 1'b1;
+		# 3266;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #10211 1'b1;
+	ALUS[1] = #3000 1'b0;
+	ALUS[1] = #7000 1'b1;
+	ALUS[1] = #3000 1'b0;
+	ALUS[1] = #95 1'b1;
+	ALUS[1] = #3816 1'b0;
+	ALUS[1] = #5600 1'b1;
+	ALUS[1] = #4400 1'b0;
+	ALUS[1] = #5600 1'b1;
+	ALUS[1] = #584 1'b0;
+	ALUS[1] = #1634 1'b1;
+	# 1633;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #1700 1'b1;
+		# 1633;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #5868 1'b1;
+	ALUS[1] = #3400 1'b0;
+	ALUS[1] = #6600 1'b1;
+	ALUS[1] = #3400 1'b0;
+	ALUS[1] = #6708 1'b1;
+	ALUS[1] = #4000 1'b0;
+	ALUS[1] = #1303 1'b1;
+	ALUS[1] = #3500 1'b0;
+	ALUS[1] = #5288 1'b1;
+	ALUS[1] = #52 1'b0;
+	ALUS[1] = #6900 1'b1;
+	ALUS[1] = #3048 1'b0;
+	ALUS[1] = #477 1'b1;
+	# 1366;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #1967 1'b1;
+		# 1366;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #4734 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #4267 1'b1;
+		# 2399;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #1026 1'b1;
+	ALUS[1] = #1674 1'b0;
+	ALUS[1] = #2150 1'b1;
+	ALUS[1] = #2850 1'b0;
+	ALUS[1] = #2150 1'b1;
+	ALUS[1] = #2095 1'b0;
+	ALUS[1] = #2667 1'b1;
+	ALUS[1] = #3999 1'b0;
+	ALUS[1] = #2667 1'b1;
+	ALUS[1] = #3999 1'b0;
+	ALUS[1] = #2667 1'b1;
+	ALUS[1] = #3082 1'b0;
+	ALUS[1] = #1251 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #4267 1'b1;
+		# 2399;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #3018 1'b1;
+	ALUS[1] = #3320 1'b0;
+	ALUS[1] = #5000 1'b1;
+	ALUS[1] = #5000 1'b0;
+	ALUS[1] = #5000 1'b1;
+	ALUS[1] = #1680 1'b0;
+	ALUS[1] = #1053 1'b1;
+	ALUS[1] = #5500 1'b0;
+	ALUS[1] = #3447 1'b1;
+	ALUS[1] = #2225 1'b0;
+	ALUS[1] = #2650 1'b1;
+	ALUS[1] = #2350 1'b0;
+	ALUS[1] = #2650 1'b1;
+	ALUS[1] = #1679 1'b0;
+	ALUS[1] = #6800 1'b1;
+	ALUS[1] = #1646 1'b0;
+	ALUS[1] = #796 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #2134 1'b1;
+		# 1199;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #1339 1'b1;
+	ALUS[1] = #1421 1'b0;
+	ALUS[1] = #2300 1'b1;
+	ALUS[1] = #2700 1'b0;
+	ALUS[1] = #2300 1'b1;
+	ALUS[1] = #1279 1'b0;
+	ALUS[1] = #3740 1'b1;
+	ALUS[1] = #6200 1'b0;
+	ALUS[1] = #10060 1'b1;
+	ALUS[1] = #70 1'b0;
+	ALUS[1] = #5400 1'b1;
+	ALUS[1] = #4530 1'b0;
+	ALUS[1] = #1775 1'b1;
+	ALUS[1] = #4200 1'b0;
+	ALUS[1] = #5800 1'b1;
+	ALUS[1] = #4200 1'b0;
+	ALUS[1] = #4025 1'b1;
+	ALUS[1] = #1599 1'b0;
+	ALUS[1] = #2850 1'b1;
+	ALUS[1] = #2150 1'b0;
+	ALUS[1] = #2850 1'b1;
+	ALUS[1] = #551 1'b0;
+	ALUS[1] = #3642 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #3800 1'b1;
+		# 2866;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #160 1'b1;
+	ALUS[1] = #3130 1'b0;
+	ALUS[1] = #13800 1'b1;
+	ALUS[1] = #3070 1'b0;
+	ALUS[1] = #23 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #2200 1'b1;
+		# 1133;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #2178 1'b1;
+	# 289;
+	repeat(2)
+	begin
+		ALUS[1] = 1'b0;
+		ALUS[1] = #1867 1'b1;
+		# 1466;
+	end
+	ALUS[1] = 1'b0;
+	ALUS[1] = #1867 1'b1;
+end 
+// ALUS[ 0 ]
+initial
+begin
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1116 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #4533 1'b1;
+		# 2133;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #5156 1'b1;
+	ALUS[0] = #1500 1'b0;
+	ALUS[0] = #3500 1'b1;
+	ALUS[0] = #1500 1'b0;
+	ALUS[0] = #1763 1'b1;
+	ALUS[0] = #217 1'b0;
+	ALUS[0] = #2600 1'b1;
+	ALUS[0] = #2400 1'b0;
+	ALUS[0] = #2600 1'b1;
+	ALUS[0] = #2183 1'b0;
+	ALUS[0] = #735 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #4200 1'b1;
+		# 2466;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #3817 1'b1;
+	ALUS[0] = #1950 1'b0;
+	ALUS[0] = #3050 1'b1;
+	ALUS[0] = #1950 1'b0;
+	ALUS[0] = #2700 1'b1;
+	ALUS[0] = #1072 1'b0;
+	ALUS[0] = #12400 1'b1;
+	ALUS[0] = #6584 1'b0;
+	ALUS[0] = #2400 1'b1;
+	ALUS[0] = #2600 1'b0;
+	ALUS[0] = #2400 1'b1;
+	ALUS[0] = #4131 1'b0;
+	ALUS[0] = #5900 1'b1;
+	ALUS[0] = #4100 1'b0;
+	ALUS[0] = #5900 1'b1;
+	ALUS[0] = #2513 1'b0;
+	ALUS[0] = #1584 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2034 1'b1;
+		# 1299;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #3772 1'b1;
+	ALUS[0] = #3500 1'b0;
+	ALUS[0] = #6500 1'b1;
+	ALUS[0] = #3500 1'b0;
+	ALUS[0] = #4598 1'b1;
+	ALUS[0] = #3900 1'b0;
+	ALUS[0] = #7744 1'b1;
+	ALUS[0] = #8800 1'b0;
+	ALUS[0] = #8137 1'b1;
+	ALUS[0] = #7626 1'b0;
+	ALUS[0] = #11400 1'b1;
+	ALUS[0] = #1939 1'b0;
+	ALUS[0] = #2550 1'b1;
+	ALUS[0] = #2450 1'b0;
+	ALUS[0] = #2550 1'b1;
+	ALUS[0] = #1485 1'b0;
+	ALUS[0] = #3142 1'b1;
+	ALUS[0] = #6600 1'b0;
+	ALUS[0] = #10258 1'b1;
+	# 278;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #1700 1'b1;
+		# 1633;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1700 1'b1;
+	ALUS[0] = #1356 1'b0;
+	ALUS[0] = #854 1'b1;
+	ALUS[0] = #6400 1'b0;
+	ALUS[0] = #14526 1'b1;
+	ALUS[0] = #4900 1'b0;
+	ALUS[0] = #8535 1'b1;
+	ALUS[0] = #7800 1'b0;
+	ALUS[0] = #6985 1'b1;
+	ALUS[0] = #330 1'b0;
+	ALUS[0] = #2950 1'b1;
+	ALUS[0] = #2050 1'b0;
+	ALUS[0] = #2950 1'b1;
+	ALUS[0] = #1925 1'b0;
+	ALUS[0] = #2234 1'b1;
+	ALUS[0] = #1099 1'b0;
+	ALUS[0] = #2234 1'b1;
+	ALUS[0] = #1099 1'b0;
+	ALUS[0] = #2234 1'b1;
+	ALUS[0] = #2063 1'b0;
+	ALUS[0] = #2700 1'b1;
+	ALUS[0] = #2300 1'b0;
+	ALUS[0] = #2700 1'b1;
+	ALUS[0] = #1132 1'b0;
+	ALUS[0] = #3544 1'b1;
+	# 2999;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #3667 1'b1;
+		# 2999;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #125 1'b1;
+	ALUS[0] = #218 1'b0;
+	ALUS[0] = #11200 1'b1;
+	ALUS[0] = #8644 1'b0;
+	ALUS[0] = #5800 1'b1;
+	ALUS[0] = #4138 1'b0;
+	ALUS[0] = #283 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #4400 1'b1;
+		# 2266;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #4119 1'b1;
+	ALUS[0] = #1435 1'b0;
+	ALUS[0] = #2700 1'b1;
+	ALUS[0] = #2300 1'b0;
+	ALUS[0] = #2700 1'b1;
+	ALUS[0] = #865 1'b0;
+	ALUS[0] = #2424 1'b1;
+	# 2799;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #3867 1'b1;
+		# 2799;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1445 1'b1;
+	# 223;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2167 1'b1;
+		# 1166;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #2167 1'b1;
+	ALUS[0] = #1529 1'b0;
+	ALUS[0] = #6300 1'b1;
+	ALUS[0] = #3700 1'b0;
+	ALUS[0] = #6300 1'b1;
+	ALUS[0] = #3497 1'b0;
+	ALUS[0] = #1800 1'b1;
+	ALUS[0] = #1533 1'b0;
+	ALUS[0] = #1800 1'b1;
+	ALUS[0] = #1533 1'b0;
+	ALUS[0] = #1800 1'b1;
+	ALUS[0] = #1152 1'b0;
+	ALUS[0] = #965 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #1867 1'b1;
+		# 1466;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #4080 1'b1;
+	# 2599;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #4067 1'b1;
+		# 2599;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #892 1'b1;
+	# 829;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2334 1'b1;
+		# 999;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #2334 1'b1;
+	ALUS[0] = #171 1'b0;
+	ALUS[0] = #272 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #1867 1'b1;
+		# 1466;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1596 1'b1;
+	ALUS[0] = #1444 1'b0;
+	ALUS[0] = #6300 1'b1;
+	ALUS[0] = #3738 1'b0;
+	ALUS[0] = #2950 1'b1;
+	ALUS[0] = #2050 1'b0;
+	ALUS[0] = #2950 1'b1;
+	ALUS[0] = #2001 1'b0;
+	ALUS[0] = #3467 1'b1;
+	ALUS[0] = #3199 1'b0;
+	ALUS[0] = #3467 1'b1;
+	ALUS[0] = #3199 1'b0;
+	ALUS[0] = #3467 1'b1;
+	ALUS[0] = #1768 1'b0;
+	ALUS[0] = #316 1'b1;
+	ALUS[0] = #5000 1'b0;
+	ALUS[0] = #6018 1'b1;
+	# 2733;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #3933 1'b1;
+		# 2733;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #3911 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2134 1'b1;
+		# 1199;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #825 1'b1;
+	ALUS[0] = #86 1'b0;
+	ALUS[0] = #2450 1'b1;
+	ALUS[0] = #2550 1'b0;
+	ALUS[0] = #2450 1'b1;
+	ALUS[0] = #2464 1'b0;
+	ALUS[0] = #4969 1'b1;
+	ALUS[0] = #3700 1'b0;
+	ALUS[0] = #6300 1'b1;
+	ALUS[0] = #3700 1'b0;
+	ALUS[0] = #1331 1'b1;
+	ALUS[0] = #6140 1'b0;
+	ALUS[0] = #12600 1'b1;
+	ALUS[0] = #4289 1'b0;
+	ALUS[0] = #6400 1'b1;
+	ALUS[0] = #571 1'b0;
+	ALUS[0] = #1513 1'b1;
+	# 1033;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2300 1'b1;
+		# 1033;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #2585 1'b1;
+	# 1099;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2234 1'b1;
+		# 1099;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #520 1'b1;
+	ALUS[0] = #2150 1'b0;
+	ALUS[0] = #2850 1'b1;
+	ALUS[0] = #2150 1'b0;
+	ALUS[0] = #4123 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2200 1'b1;
+		# 1133;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #846 1'b1;
+	ALUS[0] = #2251 1'b0;
+	ALUS[0] = #13200 1'b1;
+	ALUS[0] = #4549 1'b0;
+	ALUS[0] = #3715 1'b1;
+	ALUS[0] = #10200 1'b0;
+	ALUS[0] = #8757 1'b1;
+	# 2066;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #4600 1'b1;
+		# 2066;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1930 1'b1;
+	ALUS[0] = #293 1'b0;
+	ALUS[0] = #2100 1'b1;
+	ALUS[0] = #2900 1'b0;
+	ALUS[0] = #2100 1'b1;
+	ALUS[0] = #2607 1'b0;
+	ALUS[0] = #184 1'b1;
+	# 1499;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #1834 1'b1;
+		# 1499;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #1651 1'b1;
+	ALUS[0] = #4930 1'b0;
+	ALUS[0] = #12400 1'b1;
+	ALUS[0] = #2670 1'b0;
+	ALUS[0] = #1871 1'b1;
+	# 1066;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2267 1'b1;
+		# 1066;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #2183 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #1900 1'b1;
+		# 1433;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #816 1'b1;
+	ALUS[0] = #3500 1'b0;
+	ALUS[0] = #6500 1'b1;
+	ALUS[0] = #3500 1'b0;
+	ALUS[0] = #5799 1'b1;
+	# 520;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #2267 1'b1;
+		# 1066;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #2267 1'b1;
+	ALUS[0] = #547 1'b0;
+	ALUS[0] = #1482 1'b1;
+	ALUS[0] = #1750 1'b0;
+	ALUS[0] = #3250 1'b1;
+	ALUS[0] = #1750 1'b0;
+	ALUS[0] = #13170 1'b1;
+	ALUS[0] = #7000 1'b0;
+	ALUS[0] = #6608 1'b1;
+	ALUS[0] = #4300 1'b0;
+	ALUS[0] = #5700 1'b1;
+	ALUS[0] = #4300 1'b0;
+	ALUS[0] = #690 1'b1;
+	ALUS[0] = #724 1'b0;
+	ALUS[0] = #3400 1'b1;
+	ALUS[0] = #1600 1'b0;
+	ALUS[0] = #3400 1'b1;
+	ALUS[0] = #876 1'b0;
+	ALUS[0] = #10138 1'b1;
+	ALUS[0] = #7000 1'b0;
+	ALUS[0] = #3614 1'b1;
+	ALUS[0] = #1700 1'b0;
+	ALUS[0] = #3300 1'b1;
+	ALUS[0] = #1700 1'b0;
+	ALUS[0] = #2548 1'b1;
+	ALUS[0] = #594 1'b0;
+	ALUS[0] = #4900 1'b1;
+	ALUS[0] = #5100 1'b0;
+	ALUS[0] = #4900 1'b1;
+	ALUS[0] = #4506 1'b0;
+	ALUS[0] = #2844 1'b1;
+	# 3399;
+	repeat(2)
+	begin
+		ALUS[0] = 1'b0;
+		ALUS[0] = #3267 1'b1;
+		# 3399;
+	end
+	ALUS[0] = 1'b0;
+	ALUS[0] = #425 1'b1;
+	ALUS[0] = #1476 1'b0;
+	ALUS[0] = #2400 1'b1;
+	ALUS[0] = #2600 1'b0;
+	ALUS[0] = #2400 1'b1;
+	ALUS[0] = #5537 1'b0;
+	ALUS[0] = #4700 1'b1;
+	ALUS[0] = #5300 1'b0;
+	ALUS[0] = #4700 1'b1;
+end 
+
+// CLK
+always
+begin
+	CLK = 1'b0;
+	CLK = #5000 1'b1;
+	#5000;
+end 
+// OPoneS[ 1 ]
+initial
+begin
+	OPoneS[1] = 1'b1;
+	OPoneS[1] = #2355 1'b0;
+	OPoneS[1] = #4400 1'b1;
+	OPoneS[1] = #5600 1'b0;
+	OPoneS[1] = #4400 1'b1;
+	OPoneS[1] = #4894 1'b0;
+	OPoneS[1] = #5300 1'b1;
+	OPoneS[1] = #6085 1'b0;
+	OPoneS[1] = #12000 1'b1;
+	OPoneS[1] = #6418 1'b0;
+	OPoneS[1] = #4067 1'b1;
+	OPoneS[1] = #2599 1'b0;
+	OPoneS[1] = #4067 1'b1;
+	OPoneS[1] = #2599 1'b0;
+	OPoneS[1] = #4067 1'b1;
+	OPoneS[1] = #1149 1'b0;
+	OPoneS[1] = #2389 1'b1;
+	OPoneS[1] = #5600 1'b0;
+	OPoneS[1] = #4400 1'b1;
+	OPoneS[1] = #5600 1'b0;
+	OPoneS[1] = #2011 1'b1;
+	# 2209;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #3733 1'b1;
+		# 2933;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #3733 1'b1;
+	OPoneS[1] = #2792 1'b0;
+	OPoneS[1] = #2800 1'b1;
+	OPoneS[1] = #3866 1'b0;
+	OPoneS[1] = #2800 1'b1;
+	OPoneS[1] = #3866 1'b0;
+	OPoneS[1] = #2800 1'b1;
+	OPoneS[1] = #1802 1'b0;
+	OPoneS[1] = #3800 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #4200 1'b1;
+		# 2466;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #402 1'b1;
+	OPoneS[1] = #2967 1'b0;
+	OPoneS[1] = #12400 1'b1;
+	OPoneS[1] = #4633 1'b0;
+	OPoneS[1] = #6898 1'b1;
+	OPoneS[1] = #6000 1'b0;
+	OPoneS[1] = #7102 1'b1;
+	OPoneS[1] = #3149 1'b0;
+	OPoneS[1] = #6600 1'b1;
+	OPoneS[1] = #251 1'b0;
+	OPoneS[1] = #1258 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #4400 1'b1;
+		# 2266;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #3144 1'b1;
+	OPoneS[1] = #8 1'b0;
+	OPoneS[1] = #6800 1'b1;
+	OPoneS[1] = #5557 1'b0;
+	OPoneS[1] = #5500 1'b1;
+	OPoneS[1] = #2135 1'b0;
+	OPoneS[1] = #931 1'b1;
+	OPoneS[1] = #4400 1'b0;
+	OPoneS[1] = #5600 1'b1;
+	OPoneS[1] = #4400 1'b0;
+	OPoneS[1] = #4669 1'b1;
+	OPoneS[1] = #3160 1'b0;
+	OPoneS[1] = #4500 1'b1;
+	OPoneS[1] = #5500 1'b0;
+	OPoneS[1] = #4500 1'b1;
+	OPoneS[1] = #3262 1'b0;
+	OPoneS[1] = #3300 1'b1;
+	OPoneS[1] = #1700 1'b0;
+	OPoneS[1] = #3300 1'b1;
+	OPoneS[1] = #4885 1'b0;
+	OPoneS[1] = #4900 1'b1;
+	OPoneS[1] = #993 1'b0;
+	OPoneS[1] = #1103 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #2034 1'b1;
+		# 1299;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #3296 1'b1;
+	OPoneS[1] = #1550 1'b0;
+	OPoneS[1] = #3450 1'b1;
+	OPoneS[1] = #1550 1'b0;
+	OPoneS[1] = #1086 1'b1;
+	OPoneS[1] = #702 1'b0;
+	OPoneS[1] = #2500 1'b1;
+	OPoneS[1] = #2500 1'b0;
+	OPoneS[1] = #2500 1'b1;
+	OPoneS[1] = #1798 1'b0;
+	OPoneS[1] = #71 1'b1;
+	OPoneS[1] = #1550 1'b0;
+	OPoneS[1] = #3450 1'b1;
+	OPoneS[1] = #1550 1'b0;
+	OPoneS[1] = #6754 1'b1;
+	OPoneS[1] = #4700 1'b0;
+	OPoneS[1] = #6262 1'b1;
+	OPoneS[1] = #4800 1'b0;
+	OPoneS[1] = #863 1'b1;
+	OPoneS[1] = #2157 1'b0;
+	OPoneS[1] = #2650 1'b1;
+	OPoneS[1] = #2350 1'b0;
+	OPoneS[1] = #2650 1'b1;
+	OPoneS[1] = #2213 1'b0;
+	OPoneS[1] = #11200 1'b1;
+	OPoneS[1] = #7484 1'b0;
+	OPoneS[1] = #10800 1'b1;
+	OPoneS[1] = #8496 1'b0;
+	OPoneS[1] = #1705 1'b1;
+	OPoneS[1] = #1900 1'b0;
+	OPoneS[1] = #3100 1'b1;
+	OPoneS[1] = #1900 1'b0;
+	OPoneS[1] = #1395 1'b1;
+	OPoneS[1] = #2240 1'b0;
+	OPoneS[1] = #5400 1'b1;
+	OPoneS[1] = #4600 1'b0;
+	OPoneS[1] = #5400 1'b1;
+	OPoneS[1] = #2360 1'b0;
+	OPoneS[1] = #5306 1'b1;
+	OPoneS[1] = #4200 1'b0;
+	OPoneS[1] = #5800 1'b1;
+	OPoneS[1] = #4200 1'b0;
+	OPoneS[1] = #3815 1'b1;
+	OPoneS[1] = #6200 1'b0;
+	OPoneS[1] = #10479 1'b1;
+	# 1010;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #1400 1'b1;
+		# 1933;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #1400 1'b1;
+	OPoneS[1] = #924 1'b0;
+	OPoneS[1] = #1525 1'b1;
+	OPoneS[1] = #1850 1'b0;
+	OPoneS[1] = #3150 1'b1;
+	OPoneS[1] = #1850 1'b0;
+	OPoneS[1] = #6915 1'b1;
+	OPoneS[1] = #3100 1'b0;
+	OPoneS[1] = #6900 1'b1;
+	OPoneS[1] = #3100 1'b0;
+	OPoneS[1] = #4969 1'b1;
+	OPoneS[1] = #6000 1'b0;
+	OPoneS[1] = #4000 1'b1;
+	OPoneS[1] = #6000 1'b0;
+	OPoneS[1] = #641 1'b1;
+	OPoneS[1] = #1346 1'b0;
+	OPoneS[1] = #5500 1'b1;
+	OPoneS[1] = #4500 1'b0;
+	OPoneS[1] = #5500 1'b1;
+	OPoneS[1] = #7943 1'b0;
+	OPoneS[1] = #4800 1'b1;
+	OPoneS[1] = #5200 1'b0;
+	OPoneS[1] = #4800 1'b1;
+	OPoneS[1] = #411 1'b0;
+	OPoneS[1] = #3462 1'b1;
+	OPoneS[1] = #1500 1'b0;
+	OPoneS[1] = #3500 1'b1;
+	OPoneS[1] = #1500 1'b0;
+	OPoneS[1] = #38 1'b1;
+	OPoneS[1] = #5819 1'b0;
+	OPoneS[1] = #10200 1'b1;
+	OPoneS[1] = #3981 1'b0;
+	OPoneS[1] = #96 1'b1;
+	# 3266;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #3400 1'b1;
+		# 3266;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #10211 1'b1;
+	OPoneS[1] = #3000 1'b0;
+	OPoneS[1] = #7000 1'b1;
+	OPoneS[1] = #3000 1'b0;
+	OPoneS[1] = #95 1'b1;
+	OPoneS[1] = #3816 1'b0;
+	OPoneS[1] = #5600 1'b1;
+	OPoneS[1] = #4400 1'b0;
+	OPoneS[1] = #5600 1'b1;
+	OPoneS[1] = #584 1'b0;
+	OPoneS[1] = #1634 1'b1;
+	# 1633;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #1700 1'b1;
+		# 1633;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #5868 1'b1;
+	OPoneS[1] = #3400 1'b0;
+	OPoneS[1] = #6600 1'b1;
+	OPoneS[1] = #3400 1'b0;
+	OPoneS[1] = #6708 1'b1;
+	OPoneS[1] = #4000 1'b0;
+	OPoneS[1] = #1303 1'b1;
+	OPoneS[1] = #3500 1'b0;
+	OPoneS[1] = #5288 1'b1;
+	OPoneS[1] = #52 1'b0;
+	OPoneS[1] = #6900 1'b1;
+	OPoneS[1] = #3048 1'b0;
+	OPoneS[1] = #477 1'b1;
+	# 1366;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #1967 1'b1;
+		# 1366;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #4734 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #4267 1'b1;
+		# 2399;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #1026 1'b1;
+	OPoneS[1] = #1674 1'b0;
+	OPoneS[1] = #2150 1'b1;
+	OPoneS[1] = #2850 1'b0;
+	OPoneS[1] = #2150 1'b1;
+	OPoneS[1] = #2095 1'b0;
+	OPoneS[1] = #2667 1'b1;
+	OPoneS[1] = #3999 1'b0;
+	OPoneS[1] = #2667 1'b1;
+	OPoneS[1] = #3999 1'b0;
+	OPoneS[1] = #2667 1'b1;
+	OPoneS[1] = #3082 1'b0;
+	OPoneS[1] = #1251 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #4267 1'b1;
+		# 2399;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #3018 1'b1;
+	OPoneS[1] = #3320 1'b0;
+	OPoneS[1] = #5000 1'b1;
+	OPoneS[1] = #5000 1'b0;
+	OPoneS[1] = #5000 1'b1;
+	OPoneS[1] = #1680 1'b0;
+	OPoneS[1] = #1053 1'b1;
+	OPoneS[1] = #5500 1'b0;
+	OPoneS[1] = #3447 1'b1;
+	OPoneS[1] = #2225 1'b0;
+	OPoneS[1] = #2650 1'b1;
+	OPoneS[1] = #2350 1'b0;
+	OPoneS[1] = #2650 1'b1;
+	OPoneS[1] = #1679 1'b0;
+	OPoneS[1] = #6800 1'b1;
+	OPoneS[1] = #1646 1'b0;
+	OPoneS[1] = #796 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #2134 1'b1;
+		# 1199;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #1339 1'b1;
+	OPoneS[1] = #1421 1'b0;
+	OPoneS[1] = #2300 1'b1;
+	OPoneS[1] = #2700 1'b0;
+	OPoneS[1] = #2300 1'b1;
+	OPoneS[1] = #1279 1'b0;
+	OPoneS[1] = #3740 1'b1;
+	OPoneS[1] = #6200 1'b0;
+	OPoneS[1] = #10060 1'b1;
+	OPoneS[1] = #70 1'b0;
+	OPoneS[1] = #5400 1'b1;
+	OPoneS[1] = #4530 1'b0;
+	OPoneS[1] = #1775 1'b1;
+	OPoneS[1] = #4200 1'b0;
+	OPoneS[1] = #5800 1'b1;
+	OPoneS[1] = #4200 1'b0;
+	OPoneS[1] = #4025 1'b1;
+	OPoneS[1] = #1599 1'b0;
+	OPoneS[1] = #2850 1'b1;
+	OPoneS[1] = #2150 1'b0;
+	OPoneS[1] = #2850 1'b1;
+	OPoneS[1] = #551 1'b0;
+	OPoneS[1] = #3642 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #3800 1'b1;
+		# 2866;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #160 1'b1;
+	OPoneS[1] = #3130 1'b0;
+	OPoneS[1] = #13800 1'b1;
+	OPoneS[1] = #3070 1'b0;
+	OPoneS[1] = #23 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #2200 1'b1;
+		# 1133;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #2178 1'b1;
+	# 289;
+	repeat(2)
+	begin
+		OPoneS[1] = 1'b0;
+		OPoneS[1] = #1867 1'b1;
+		# 1466;
+	end
+	OPoneS[1] = 1'b0;
+	OPoneS[1] = #1867 1'b1;
+end 
+// OPoneS[ 0 ]
+initial
+begin
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1116 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #4533 1'b1;
+		# 2133;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #5156 1'b1;
+	OPoneS[0] = #1500 1'b0;
+	OPoneS[0] = #3500 1'b1;
+	OPoneS[0] = #1500 1'b0;
+	OPoneS[0] = #1763 1'b1;
+	OPoneS[0] = #217 1'b0;
+	OPoneS[0] = #2600 1'b1;
+	OPoneS[0] = #2400 1'b0;
+	OPoneS[0] = #2600 1'b1;
+	OPoneS[0] = #2183 1'b0;
+	OPoneS[0] = #735 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #4200 1'b1;
+		# 2466;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #3817 1'b1;
+	OPoneS[0] = #1950 1'b0;
+	OPoneS[0] = #3050 1'b1;
+	OPoneS[0] = #1950 1'b0;
+	OPoneS[0] = #2700 1'b1;
+	OPoneS[0] = #1072 1'b0;
+	OPoneS[0] = #12400 1'b1;
+	OPoneS[0] = #6584 1'b0;
+	OPoneS[0] = #2400 1'b1;
+	OPoneS[0] = #2600 1'b0;
+	OPoneS[0] = #2400 1'b1;
+	OPoneS[0] = #4131 1'b0;
+	OPoneS[0] = #5900 1'b1;
+	OPoneS[0] = #4100 1'b0;
+	OPoneS[0] = #5900 1'b1;
+	OPoneS[0] = #2513 1'b0;
+	OPoneS[0] = #1584 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2034 1'b1;
+		# 1299;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #3772 1'b1;
+	OPoneS[0] = #3500 1'b0;
+	OPoneS[0] = #6500 1'b1;
+	OPoneS[0] = #3500 1'b0;
+	OPoneS[0] = #4598 1'b1;
+	OPoneS[0] = #3900 1'b0;
+	OPoneS[0] = #7744 1'b1;
+	OPoneS[0] = #8800 1'b0;
+	OPoneS[0] = #8137 1'b1;
+	OPoneS[0] = #7626 1'b0;
+	OPoneS[0] = #11400 1'b1;
+	OPoneS[0] = #1939 1'b0;
+	OPoneS[0] = #2550 1'b1;
+	OPoneS[0] = #2450 1'b0;
+	OPoneS[0] = #2550 1'b1;
+	OPoneS[0] = #1485 1'b0;
+	OPoneS[0] = #3142 1'b1;
+	OPoneS[0] = #6600 1'b0;
+	OPoneS[0] = #10258 1'b1;
+	# 278;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #1700 1'b1;
+		# 1633;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1700 1'b1;
+	OPoneS[0] = #1356 1'b0;
+	OPoneS[0] = #854 1'b1;
+	OPoneS[0] = #6400 1'b0;
+	OPoneS[0] = #14526 1'b1;
+	OPoneS[0] = #4900 1'b0;
+	OPoneS[0] = #8535 1'b1;
+	OPoneS[0] = #7800 1'b0;
+	OPoneS[0] = #6985 1'b1;
+	OPoneS[0] = #330 1'b0;
+	OPoneS[0] = #2950 1'b1;
+	OPoneS[0] = #2050 1'b0;
+	OPoneS[0] = #2950 1'b1;
+	OPoneS[0] = #1925 1'b0;
+	OPoneS[0] = #2234 1'b1;
+	OPoneS[0] = #1099 1'b0;
+	OPoneS[0] = #2234 1'b1;
+	OPoneS[0] = #1099 1'b0;
+	OPoneS[0] = #2234 1'b1;
+	OPoneS[0] = #2063 1'b0;
+	OPoneS[0] = #2700 1'b1;
+	OPoneS[0] = #2300 1'b0;
+	OPoneS[0] = #2700 1'b1;
+	OPoneS[0] = #1132 1'b0;
+	OPoneS[0] = #3544 1'b1;
+	# 2999;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #3667 1'b1;
+		# 2999;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #125 1'b1;
+	OPoneS[0] = #218 1'b0;
+	OPoneS[0] = #11200 1'b1;
+	OPoneS[0] = #8644 1'b0;
+	OPoneS[0] = #5800 1'b1;
+	OPoneS[0] = #4138 1'b0;
+	OPoneS[0] = #283 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #4400 1'b1;
+		# 2266;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #4119 1'b1;
+	OPoneS[0] = #1435 1'b0;
+	OPoneS[0] = #2700 1'b1;
+	OPoneS[0] = #2300 1'b0;
+	OPoneS[0] = #2700 1'b1;
+	OPoneS[0] = #865 1'b0;
+	OPoneS[0] = #2424 1'b1;
+	# 2799;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #3867 1'b1;
+		# 2799;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1445 1'b1;
+	# 223;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2167 1'b1;
+		# 1166;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #2167 1'b1;
+	OPoneS[0] = #1529 1'b0;
+	OPoneS[0] = #6300 1'b1;
+	OPoneS[0] = #3700 1'b0;
+	OPoneS[0] = #6300 1'b1;
+	OPoneS[0] = #3497 1'b0;
+	OPoneS[0] = #1800 1'b1;
+	OPoneS[0] = #1533 1'b0;
+	OPoneS[0] = #1800 1'b1;
+	OPoneS[0] = #1533 1'b0;
+	OPoneS[0] = #1800 1'b1;
+	OPoneS[0] = #1152 1'b0;
+	OPoneS[0] = #965 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #1867 1'b1;
+		# 1466;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #4080 1'b1;
+	# 2599;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #4067 1'b1;
+		# 2599;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #892 1'b1;
+	# 829;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2334 1'b1;
+		# 999;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #2334 1'b1;
+	OPoneS[0] = #171 1'b0;
+	OPoneS[0] = #272 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #1867 1'b1;
+		# 1466;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1596 1'b1;
+	OPoneS[0] = #1444 1'b0;
+	OPoneS[0] = #6300 1'b1;
+	OPoneS[0] = #3738 1'b0;
+	OPoneS[0] = #2950 1'b1;
+	OPoneS[0] = #2050 1'b0;
+	OPoneS[0] = #2950 1'b1;
+	OPoneS[0] = #2001 1'b0;
+	OPoneS[0] = #3467 1'b1;
+	OPoneS[0] = #3199 1'b0;
+	OPoneS[0] = #3467 1'b1;
+	OPoneS[0] = #3199 1'b0;
+	OPoneS[0] = #3467 1'b1;
+	OPoneS[0] = #1768 1'b0;
+	OPoneS[0] = #316 1'b1;
+	OPoneS[0] = #5000 1'b0;
+	OPoneS[0] = #6018 1'b1;
+	# 2733;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #3933 1'b1;
+		# 2733;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #3911 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2134 1'b1;
+		# 1199;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #825 1'b1;
+	OPoneS[0] = #86 1'b0;
+	OPoneS[0] = #2450 1'b1;
+	OPoneS[0] = #2550 1'b0;
+	OPoneS[0] = #2450 1'b1;
+	OPoneS[0] = #2464 1'b0;
+	OPoneS[0] = #4969 1'b1;
+	OPoneS[0] = #3700 1'b0;
+	OPoneS[0] = #6300 1'b1;
+	OPoneS[0] = #3700 1'b0;
+	OPoneS[0] = #1331 1'b1;
+	OPoneS[0] = #6140 1'b0;
+	OPoneS[0] = #12600 1'b1;
+	OPoneS[0] = #4289 1'b0;
+	OPoneS[0] = #6400 1'b1;
+	OPoneS[0] = #571 1'b0;
+	OPoneS[0] = #1513 1'b1;
+	# 1033;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2300 1'b1;
+		# 1033;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #2585 1'b1;
+	# 1099;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2234 1'b1;
+		# 1099;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #520 1'b1;
+	OPoneS[0] = #2150 1'b0;
+	OPoneS[0] = #2850 1'b1;
+	OPoneS[0] = #2150 1'b0;
+	OPoneS[0] = #4123 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2200 1'b1;
+		# 1133;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #846 1'b1;
+	OPoneS[0] = #2251 1'b0;
+	OPoneS[0] = #13200 1'b1;
+	OPoneS[0] = #4549 1'b0;
+	OPoneS[0] = #3715 1'b1;
+	OPoneS[0] = #10200 1'b0;
+	OPoneS[0] = #8757 1'b1;
+	# 2066;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #4600 1'b1;
+		# 2066;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1930 1'b1;
+	OPoneS[0] = #293 1'b0;
+	OPoneS[0] = #2100 1'b1;
+	OPoneS[0] = #2900 1'b0;
+	OPoneS[0] = #2100 1'b1;
+	OPoneS[0] = #2607 1'b0;
+	OPoneS[0] = #184 1'b1;
+	# 1499;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #1834 1'b1;
+		# 1499;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #1651 1'b1;
+	OPoneS[0] = #4930 1'b0;
+	OPoneS[0] = #12400 1'b1;
+	OPoneS[0] = #2670 1'b0;
+	OPoneS[0] = #1871 1'b1;
+	# 1066;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2267 1'b1;
+		# 1066;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #2183 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #1900 1'b1;
+		# 1433;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #816 1'b1;
+	OPoneS[0] = #3500 1'b0;
+	OPoneS[0] = #6500 1'b1;
+	OPoneS[0] = #3500 1'b0;
+	OPoneS[0] = #5799 1'b1;
+	# 520;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #2267 1'b1;
+		# 1066;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #2267 1'b1;
+	OPoneS[0] = #547 1'b0;
+	OPoneS[0] = #1482 1'b1;
+	OPoneS[0] = #1750 1'b0;
+	OPoneS[0] = #3250 1'b1;
+	OPoneS[0] = #1750 1'b0;
+	OPoneS[0] = #13170 1'b1;
+	OPoneS[0] = #7000 1'b0;
+	OPoneS[0] = #6608 1'b1;
+	OPoneS[0] = #4300 1'b0;
+	OPoneS[0] = #5700 1'b1;
+	OPoneS[0] = #4300 1'b0;
+	OPoneS[0] = #690 1'b1;
+	OPoneS[0] = #724 1'b0;
+	OPoneS[0] = #3400 1'b1;
+	OPoneS[0] = #1600 1'b0;
+	OPoneS[0] = #3400 1'b1;
+	OPoneS[0] = #876 1'b0;
+	OPoneS[0] = #10138 1'b1;
+	OPoneS[0] = #7000 1'b0;
+	OPoneS[0] = #3614 1'b1;
+	OPoneS[0] = #1700 1'b0;
+	OPoneS[0] = #3300 1'b1;
+	OPoneS[0] = #1700 1'b0;
+	OPoneS[0] = #2548 1'b1;
+	OPoneS[0] = #594 1'b0;
+	OPoneS[0] = #4900 1'b1;
+	OPoneS[0] = #5100 1'b0;
+	OPoneS[0] = #4900 1'b1;
+	OPoneS[0] = #4506 1'b0;
+	OPoneS[0] = #2844 1'b1;
+	# 3399;
+	repeat(2)
+	begin
+		OPoneS[0] = 1'b0;
+		OPoneS[0] = #3267 1'b1;
+		# 3399;
+	end
+	OPoneS[0] = 1'b0;
+	OPoneS[0] = #425 1'b1;
+	OPoneS[0] = #1476 1'b0;
+	OPoneS[0] = #2400 1'b1;
+	OPoneS[0] = #2600 1'b0;
+	OPoneS[0] = #2400 1'b1;
+	OPoneS[0] = #5537 1'b0;
+	OPoneS[0] = #4700 1'b1;
+	OPoneS[0] = #5300 1'b0;
+	OPoneS[0] = #4700 1'b1;
+end 
+// OPtwoS[ 1 ]
+initial
+begin
+	OPtwoS[1] = 1'b1;
+	OPtwoS[1] = #2355 1'b0;
+	OPtwoS[1] = #4400 1'b1;
+	OPtwoS[1] = #5600 1'b0;
+	OPtwoS[1] = #4400 1'b1;
+	OPtwoS[1] = #4894 1'b0;
+	OPtwoS[1] = #5300 1'b1;
+	OPtwoS[1] = #6085 1'b0;
+	OPtwoS[1] = #12000 1'b1;
+	OPtwoS[1] = #6418 1'b0;
+	OPtwoS[1] = #4067 1'b1;
+	OPtwoS[1] = #2599 1'b0;
+	OPtwoS[1] = #4067 1'b1;
+	OPtwoS[1] = #2599 1'b0;
+	OPtwoS[1] = #4067 1'b1;
+	OPtwoS[1] = #1149 1'b0;
+	OPtwoS[1] = #2389 1'b1;
+	OPtwoS[1] = #5600 1'b0;
+	OPtwoS[1] = #4400 1'b1;
+	OPtwoS[1] = #5600 1'b0;
+	OPtwoS[1] = #2011 1'b1;
+	# 2209;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #3733 1'b1;
+		# 2933;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #3733 1'b1;
+	OPtwoS[1] = #2792 1'b0;
+	OPtwoS[1] = #2800 1'b1;
+	OPtwoS[1] = #3866 1'b0;
+	OPtwoS[1] = #2800 1'b1;
+	OPtwoS[1] = #3866 1'b0;
+	OPtwoS[1] = #2800 1'b1;
+	OPtwoS[1] = #1802 1'b0;
+	OPtwoS[1] = #3800 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #4200 1'b1;
+		# 2466;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #402 1'b1;
+	OPtwoS[1] = #2967 1'b0;
+	OPtwoS[1] = #12400 1'b1;
+	OPtwoS[1] = #4633 1'b0;
+	OPtwoS[1] = #6898 1'b1;
+	OPtwoS[1] = #6000 1'b0;
+	OPtwoS[1] = #7102 1'b1;
+	OPtwoS[1] = #3149 1'b0;
+	OPtwoS[1] = #6600 1'b1;
+	OPtwoS[1] = #251 1'b0;
+	OPtwoS[1] = #1258 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #4400 1'b1;
+		# 2266;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #3144 1'b1;
+	OPtwoS[1] = #8 1'b0;
+	OPtwoS[1] = #6800 1'b1;
+	OPtwoS[1] = #5557 1'b0;
+	OPtwoS[1] = #5500 1'b1;
+	OPtwoS[1] = #2135 1'b0;
+	OPtwoS[1] = #931 1'b1;
+	OPtwoS[1] = #4400 1'b0;
+	OPtwoS[1] = #5600 1'b1;
+	OPtwoS[1] = #4400 1'b0;
+	OPtwoS[1] = #4669 1'b1;
+	OPtwoS[1] = #3160 1'b0;
+	OPtwoS[1] = #4500 1'b1;
+	OPtwoS[1] = #5500 1'b0;
+	OPtwoS[1] = #4500 1'b1;
+	OPtwoS[1] = #3262 1'b0;
+	OPtwoS[1] = #3300 1'b1;
+	OPtwoS[1] = #1700 1'b0;
+	OPtwoS[1] = #3300 1'b1;
+	OPtwoS[1] = #4885 1'b0;
+	OPtwoS[1] = #4900 1'b1;
+	OPtwoS[1] = #993 1'b0;
+	OPtwoS[1] = #1103 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #2034 1'b1;
+		# 1299;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #3296 1'b1;
+	OPtwoS[1] = #1550 1'b0;
+	OPtwoS[1] = #3450 1'b1;
+	OPtwoS[1] = #1550 1'b0;
+	OPtwoS[1] = #1086 1'b1;
+	OPtwoS[1] = #702 1'b0;
+	OPtwoS[1] = #2500 1'b1;
+	OPtwoS[1] = #2500 1'b0;
+	OPtwoS[1] = #2500 1'b1;
+	OPtwoS[1] = #1798 1'b0;
+	OPtwoS[1] = #71 1'b1;
+	OPtwoS[1] = #1550 1'b0;
+	OPtwoS[1] = #3450 1'b1;
+	OPtwoS[1] = #1550 1'b0;
+	OPtwoS[1] = #6754 1'b1;
+	OPtwoS[1] = #4700 1'b0;
+	OPtwoS[1] = #6262 1'b1;
+	OPtwoS[1] = #4800 1'b0;
+	OPtwoS[1] = #863 1'b1;
+	OPtwoS[1] = #2157 1'b0;
+	OPtwoS[1] = #2650 1'b1;
+	OPtwoS[1] = #2350 1'b0;
+	OPtwoS[1] = #2650 1'b1;
+	OPtwoS[1] = #2213 1'b0;
+	OPtwoS[1] = #11200 1'b1;
+	OPtwoS[1] = #7484 1'b0;
+	OPtwoS[1] = #10800 1'b1;
+	OPtwoS[1] = #8496 1'b0;
+	OPtwoS[1] = #1705 1'b1;
+	OPtwoS[1] = #1900 1'b0;
+	OPtwoS[1] = #3100 1'b1;
+	OPtwoS[1] = #1900 1'b0;
+	OPtwoS[1] = #1395 1'b1;
+	OPtwoS[1] = #2240 1'b0;
+	OPtwoS[1] = #5400 1'b1;
+	OPtwoS[1] = #4600 1'b0;
+	OPtwoS[1] = #5400 1'b1;
+	OPtwoS[1] = #2360 1'b0;
+	OPtwoS[1] = #5306 1'b1;
+	OPtwoS[1] = #4200 1'b0;
+	OPtwoS[1] = #5800 1'b1;
+	OPtwoS[1] = #4200 1'b0;
+	OPtwoS[1] = #3815 1'b1;
+	OPtwoS[1] = #6200 1'b0;
+	OPtwoS[1] = #10479 1'b1;
+	# 1010;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #1400 1'b1;
+		# 1933;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #1400 1'b1;
+	OPtwoS[1] = #924 1'b0;
+	OPtwoS[1] = #1525 1'b1;
+	OPtwoS[1] = #1850 1'b0;
+	OPtwoS[1] = #3150 1'b1;
+	OPtwoS[1] = #1850 1'b0;
+	OPtwoS[1] = #6915 1'b1;
+	OPtwoS[1] = #3100 1'b0;
+	OPtwoS[1] = #6900 1'b1;
+	OPtwoS[1] = #3100 1'b0;
+	OPtwoS[1] = #4969 1'b1;
+	OPtwoS[1] = #6000 1'b0;
+	OPtwoS[1] = #4000 1'b1;
+	OPtwoS[1] = #6000 1'b0;
+	OPtwoS[1] = #641 1'b1;
+	OPtwoS[1] = #1346 1'b0;
+	OPtwoS[1] = #5500 1'b1;
+	OPtwoS[1] = #4500 1'b0;
+	OPtwoS[1] = #5500 1'b1;
+	OPtwoS[1] = #7943 1'b0;
+	OPtwoS[1] = #4800 1'b1;
+	OPtwoS[1] = #5200 1'b0;
+	OPtwoS[1] = #4800 1'b1;
+	OPtwoS[1] = #411 1'b0;
+	OPtwoS[1] = #3462 1'b1;
+	OPtwoS[1] = #1500 1'b0;
+	OPtwoS[1] = #3500 1'b1;
+	OPtwoS[1] = #1500 1'b0;
+	OPtwoS[1] = #38 1'b1;
+	OPtwoS[1] = #5819 1'b0;
+	OPtwoS[1] = #10200 1'b1;
+	OPtwoS[1] = #3981 1'b0;
+	OPtwoS[1] = #96 1'b1;
+	# 3266;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #3400 1'b1;
+		# 3266;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #10211 1'b1;
+	OPtwoS[1] = #3000 1'b0;
+	OPtwoS[1] = #7000 1'b1;
+	OPtwoS[1] = #3000 1'b0;
+	OPtwoS[1] = #95 1'b1;
+	OPtwoS[1] = #3816 1'b0;
+	OPtwoS[1] = #5600 1'b1;
+	OPtwoS[1] = #4400 1'b0;
+	OPtwoS[1] = #5600 1'b1;
+	OPtwoS[1] = #584 1'b0;
+	OPtwoS[1] = #1634 1'b1;
+	# 1633;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #1700 1'b1;
+		# 1633;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #5868 1'b1;
+	OPtwoS[1] = #3400 1'b0;
+	OPtwoS[1] = #6600 1'b1;
+	OPtwoS[1] = #3400 1'b0;
+	OPtwoS[1] = #6708 1'b1;
+	OPtwoS[1] = #4000 1'b0;
+	OPtwoS[1] = #1303 1'b1;
+	OPtwoS[1] = #3500 1'b0;
+	OPtwoS[1] = #5288 1'b1;
+	OPtwoS[1] = #52 1'b0;
+	OPtwoS[1] = #6900 1'b1;
+	OPtwoS[1] = #3048 1'b0;
+	OPtwoS[1] = #477 1'b1;
+	# 1366;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #1967 1'b1;
+		# 1366;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #4734 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #4267 1'b1;
+		# 2399;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #1026 1'b1;
+	OPtwoS[1] = #1674 1'b0;
+	OPtwoS[1] = #2150 1'b1;
+	OPtwoS[1] = #2850 1'b0;
+	OPtwoS[1] = #2150 1'b1;
+	OPtwoS[1] = #2095 1'b0;
+	OPtwoS[1] = #2667 1'b1;
+	OPtwoS[1] = #3999 1'b0;
+	OPtwoS[1] = #2667 1'b1;
+	OPtwoS[1] = #3999 1'b0;
+	OPtwoS[1] = #2667 1'b1;
+	OPtwoS[1] = #3082 1'b0;
+	OPtwoS[1] = #1251 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #4267 1'b1;
+		# 2399;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #3018 1'b1;
+	OPtwoS[1] = #3320 1'b0;
+	OPtwoS[1] = #5000 1'b1;
+	OPtwoS[1] = #5000 1'b0;
+	OPtwoS[1] = #5000 1'b1;
+	OPtwoS[1] = #1680 1'b0;
+	OPtwoS[1] = #1053 1'b1;
+	OPtwoS[1] = #5500 1'b0;
+	OPtwoS[1] = #3447 1'b1;
+	OPtwoS[1] = #2225 1'b0;
+	OPtwoS[1] = #2650 1'b1;
+	OPtwoS[1] = #2350 1'b0;
+	OPtwoS[1] = #2650 1'b1;
+	OPtwoS[1] = #1679 1'b0;
+	OPtwoS[1] = #6800 1'b1;
+	OPtwoS[1] = #1646 1'b0;
+	OPtwoS[1] = #796 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #2134 1'b1;
+		# 1199;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #1339 1'b1;
+	OPtwoS[1] = #1421 1'b0;
+	OPtwoS[1] = #2300 1'b1;
+	OPtwoS[1] = #2700 1'b0;
+	OPtwoS[1] = #2300 1'b1;
+	OPtwoS[1] = #1279 1'b0;
+	OPtwoS[1] = #3740 1'b1;
+	OPtwoS[1] = #6200 1'b0;
+	OPtwoS[1] = #10060 1'b1;
+	OPtwoS[1] = #70 1'b0;
+	OPtwoS[1] = #5400 1'b1;
+	OPtwoS[1] = #4530 1'b0;
+	OPtwoS[1] = #1775 1'b1;
+	OPtwoS[1] = #4200 1'b0;
+	OPtwoS[1] = #5800 1'b1;
+	OPtwoS[1] = #4200 1'b0;
+	OPtwoS[1] = #4025 1'b1;
+	OPtwoS[1] = #1599 1'b0;
+	OPtwoS[1] = #2850 1'b1;
+	OPtwoS[1] = #2150 1'b0;
+	OPtwoS[1] = #2850 1'b1;
+	OPtwoS[1] = #551 1'b0;
+	OPtwoS[1] = #3642 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #3800 1'b1;
+		# 2866;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #160 1'b1;
+	OPtwoS[1] = #3130 1'b0;
+	OPtwoS[1] = #13800 1'b1;
+	OPtwoS[1] = #3070 1'b0;
+	OPtwoS[1] = #23 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #2200 1'b1;
+		# 1133;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #2178 1'b1;
+	# 289;
+	repeat(2)
+	begin
+		OPtwoS[1] = 1'b0;
+		OPtwoS[1] = #1867 1'b1;
+		# 1466;
+	end
+	OPtwoS[1] = 1'b0;
+	OPtwoS[1] = #1867 1'b1;
+end 
+// OPtwoS[ 0 ]
+initial
+begin
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1116 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #4533 1'b1;
+		# 2133;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #5156 1'b1;
+	OPtwoS[0] = #1500 1'b0;
+	OPtwoS[0] = #3500 1'b1;
+	OPtwoS[0] = #1500 1'b0;
+	OPtwoS[0] = #1763 1'b1;
+	OPtwoS[0] = #217 1'b0;
+	OPtwoS[0] = #2600 1'b1;
+	OPtwoS[0] = #2400 1'b0;
+	OPtwoS[0] = #2600 1'b1;
+	OPtwoS[0] = #2183 1'b0;
+	OPtwoS[0] = #735 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #4200 1'b1;
+		# 2466;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #3817 1'b1;
+	OPtwoS[0] = #1950 1'b0;
+	OPtwoS[0] = #3050 1'b1;
+	OPtwoS[0] = #1950 1'b0;
+	OPtwoS[0] = #2700 1'b1;
+	OPtwoS[0] = #1072 1'b0;
+	OPtwoS[0] = #12400 1'b1;
+	OPtwoS[0] = #6584 1'b0;
+	OPtwoS[0] = #2400 1'b1;
+	OPtwoS[0] = #2600 1'b0;
+	OPtwoS[0] = #2400 1'b1;
+	OPtwoS[0] = #4131 1'b0;
+	OPtwoS[0] = #5900 1'b1;
+	OPtwoS[0] = #4100 1'b0;
+	OPtwoS[0] = #5900 1'b1;
+	OPtwoS[0] = #2513 1'b0;
+	OPtwoS[0] = #1584 1'b1;
+	# 1299;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2034 1'b1;
+		# 1299;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #3772 1'b1;
+	OPtwoS[0] = #3500 1'b0;
+	OPtwoS[0] = #6500 1'b1;
+	OPtwoS[0] = #3500 1'b0;
+	OPtwoS[0] = #4598 1'b1;
+	OPtwoS[0] = #3900 1'b0;
+	OPtwoS[0] = #7744 1'b1;
+	OPtwoS[0] = #8800 1'b0;
+	OPtwoS[0] = #8137 1'b1;
+	OPtwoS[0] = #7626 1'b0;
+	OPtwoS[0] = #11400 1'b1;
+	OPtwoS[0] = #1939 1'b0;
+	OPtwoS[0] = #2550 1'b1;
+	OPtwoS[0] = #2450 1'b0;
+	OPtwoS[0] = #2550 1'b1;
+	OPtwoS[0] = #1485 1'b0;
+	OPtwoS[0] = #3142 1'b1;
+	OPtwoS[0] = #6600 1'b0;
+	OPtwoS[0] = #10258 1'b1;
+	# 278;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #1700 1'b1;
+		# 1633;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1700 1'b1;
+	OPtwoS[0] = #1356 1'b0;
+	OPtwoS[0] = #854 1'b1;
+	OPtwoS[0] = #6400 1'b0;
+	OPtwoS[0] = #14526 1'b1;
+	OPtwoS[0] = #4900 1'b0;
+	OPtwoS[0] = #8535 1'b1;
+	OPtwoS[0] = #7800 1'b0;
+	OPtwoS[0] = #6985 1'b1;
+	OPtwoS[0] = #330 1'b0;
+	OPtwoS[0] = #2950 1'b1;
+	OPtwoS[0] = #2050 1'b0;
+	OPtwoS[0] = #2950 1'b1;
+	OPtwoS[0] = #1925 1'b0;
+	OPtwoS[0] = #2234 1'b1;
+	OPtwoS[0] = #1099 1'b0;
+	OPtwoS[0] = #2234 1'b1;
+	OPtwoS[0] = #1099 1'b0;
+	OPtwoS[0] = #2234 1'b1;
+	OPtwoS[0] = #2063 1'b0;
+	OPtwoS[0] = #2700 1'b1;
+	OPtwoS[0] = #2300 1'b0;
+	OPtwoS[0] = #2700 1'b1;
+	OPtwoS[0] = #1132 1'b0;
+	OPtwoS[0] = #3544 1'b1;
+	# 2999;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #3667 1'b1;
+		# 2999;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #125 1'b1;
+	OPtwoS[0] = #218 1'b0;
+	OPtwoS[0] = #11200 1'b1;
+	OPtwoS[0] = #8644 1'b0;
+	OPtwoS[0] = #5800 1'b1;
+	OPtwoS[0] = #4138 1'b0;
+	OPtwoS[0] = #283 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #4400 1'b1;
+		# 2266;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #4119 1'b1;
+	OPtwoS[0] = #1435 1'b0;
+	OPtwoS[0] = #2700 1'b1;
+	OPtwoS[0] = #2300 1'b0;
+	OPtwoS[0] = #2700 1'b1;
+	OPtwoS[0] = #865 1'b0;
+	OPtwoS[0] = #2424 1'b1;
+	# 2799;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #3867 1'b1;
+		# 2799;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1445 1'b1;
+	# 223;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2167 1'b1;
+		# 1166;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #2167 1'b1;
+	OPtwoS[0] = #1529 1'b0;
+	OPtwoS[0] = #6300 1'b1;
+	OPtwoS[0] = #3700 1'b0;
+	OPtwoS[0] = #6300 1'b1;
+	OPtwoS[0] = #3497 1'b0;
+	OPtwoS[0] = #1800 1'b1;
+	OPtwoS[0] = #1533 1'b0;
+	OPtwoS[0] = #1800 1'b1;
+	OPtwoS[0] = #1533 1'b0;
+	OPtwoS[0] = #1800 1'b1;
+	OPtwoS[0] = #1152 1'b0;
+	OPtwoS[0] = #965 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #1867 1'b1;
+		# 1466;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #4080 1'b1;
+	# 2599;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #4067 1'b1;
+		# 2599;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #892 1'b1;
+	# 829;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2334 1'b1;
+		# 999;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #2334 1'b1;
+	OPtwoS[0] = #171 1'b0;
+	OPtwoS[0] = #272 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #1867 1'b1;
+		# 1466;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1596 1'b1;
+	OPtwoS[0] = #1444 1'b0;
+	OPtwoS[0] = #6300 1'b1;
+	OPtwoS[0] = #3738 1'b0;
+	OPtwoS[0] = #2950 1'b1;
+	OPtwoS[0] = #2050 1'b0;
+	OPtwoS[0] = #2950 1'b1;
+	OPtwoS[0] = #2001 1'b0;
+	OPtwoS[0] = #3467 1'b1;
+	OPtwoS[0] = #3199 1'b0;
+	OPtwoS[0] = #3467 1'b1;
+	OPtwoS[0] = #3199 1'b0;
+	OPtwoS[0] = #3467 1'b1;
+	OPtwoS[0] = #1768 1'b0;
+	OPtwoS[0] = #316 1'b1;
+	OPtwoS[0] = #5000 1'b0;
+	OPtwoS[0] = #6018 1'b1;
+	# 2733;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #3933 1'b1;
+		# 2733;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #3911 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2134 1'b1;
+		# 1199;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #825 1'b1;
+	OPtwoS[0] = #86 1'b0;
+	OPtwoS[0] = #2450 1'b1;
+	OPtwoS[0] = #2550 1'b0;
+	OPtwoS[0] = #2450 1'b1;
+	OPtwoS[0] = #2464 1'b0;
+	OPtwoS[0] = #4969 1'b1;
+	OPtwoS[0] = #3700 1'b0;
+	OPtwoS[0] = #6300 1'b1;
+	OPtwoS[0] = #3700 1'b0;
+	OPtwoS[0] = #1331 1'b1;
+	OPtwoS[0] = #6140 1'b0;
+	OPtwoS[0] = #12600 1'b1;
+	OPtwoS[0] = #4289 1'b0;
+	OPtwoS[0] = #6400 1'b1;
+	OPtwoS[0] = #571 1'b0;
+	OPtwoS[0] = #1513 1'b1;
+	# 1033;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2300 1'b1;
+		# 1033;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #2585 1'b1;
+	# 1099;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2234 1'b1;
+		# 1099;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #520 1'b1;
+	OPtwoS[0] = #2150 1'b0;
+	OPtwoS[0] = #2850 1'b1;
+	OPtwoS[0] = #2150 1'b0;
+	OPtwoS[0] = #4123 1'b1;
+	# 1133;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2200 1'b1;
+		# 1133;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #846 1'b1;
+	OPtwoS[0] = #2251 1'b0;
+	OPtwoS[0] = #13200 1'b1;
+	OPtwoS[0] = #4549 1'b0;
+	OPtwoS[0] = #3715 1'b1;
+	OPtwoS[0] = #10200 1'b0;
+	OPtwoS[0] = #8757 1'b1;
+	# 2066;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #4600 1'b1;
+		# 2066;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1930 1'b1;
+	OPtwoS[0] = #293 1'b0;
+	OPtwoS[0] = #2100 1'b1;
+	OPtwoS[0] = #2900 1'b0;
+	OPtwoS[0] = #2100 1'b1;
+	OPtwoS[0] = #2607 1'b0;
+	OPtwoS[0] = #184 1'b1;
+	# 1499;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #1834 1'b1;
+		# 1499;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #1651 1'b1;
+	OPtwoS[0] = #4930 1'b0;
+	OPtwoS[0] = #12400 1'b1;
+	OPtwoS[0] = #2670 1'b0;
+	OPtwoS[0] = #1871 1'b1;
+	# 1066;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2267 1'b1;
+		# 1066;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #2183 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #1900 1'b1;
+		# 1433;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #816 1'b1;
+	OPtwoS[0] = #3500 1'b0;
+	OPtwoS[0] = #6500 1'b1;
+	OPtwoS[0] = #3500 1'b0;
+	OPtwoS[0] = #5799 1'b1;
+	# 520;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #2267 1'b1;
+		# 1066;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #2267 1'b1;
+	OPtwoS[0] = #547 1'b0;
+	OPtwoS[0] = #1482 1'b1;
+	OPtwoS[0] = #1750 1'b0;
+	OPtwoS[0] = #3250 1'b1;
+	OPtwoS[0] = #1750 1'b0;
+	OPtwoS[0] = #13170 1'b1;
+	OPtwoS[0] = #7000 1'b0;
+	OPtwoS[0] = #6608 1'b1;
+	OPtwoS[0] = #4300 1'b0;
+	OPtwoS[0] = #5700 1'b1;
+	OPtwoS[0] = #4300 1'b0;
+	OPtwoS[0] = #690 1'b1;
+	OPtwoS[0] = #724 1'b0;
+	OPtwoS[0] = #3400 1'b1;
+	OPtwoS[0] = #1600 1'b0;
+	OPtwoS[0] = #3400 1'b1;
+	OPtwoS[0] = #876 1'b0;
+	OPtwoS[0] = #10138 1'b1;
+	OPtwoS[0] = #7000 1'b0;
+	OPtwoS[0] = #3614 1'b1;
+	OPtwoS[0] = #1700 1'b0;
+	OPtwoS[0] = #3300 1'b1;
+	OPtwoS[0] = #1700 1'b0;
+	OPtwoS[0] = #2548 1'b1;
+	OPtwoS[0] = #594 1'b0;
+	OPtwoS[0] = #4900 1'b1;
+	OPtwoS[0] = #5100 1'b0;
+	OPtwoS[0] = #4900 1'b1;
+	OPtwoS[0] = #4506 1'b0;
+	OPtwoS[0] = #2844 1'b1;
+	# 3399;
+	repeat(2)
+	begin
+		OPtwoS[0] = 1'b0;
+		OPtwoS[0] = #3267 1'b1;
+		# 3399;
+	end
+	OPtwoS[0] = 1'b0;
+	OPtwoS[0] = #425 1'b1;
+	OPtwoS[0] = #1476 1'b0;
+	OPtwoS[0] = #2400 1'b1;
+	OPtwoS[0] = #2600 1'b0;
+	OPtwoS[0] = #2400 1'b1;
+	OPtwoS[0] = #5537 1'b0;
+	OPtwoS[0] = #4700 1'b1;
+	OPtwoS[0] = #5300 1'b0;
+	OPtwoS[0] = #4700 1'b1;
+end 
+
+// pin_name1
+initial
+begin
+	pin_name1 = 1'b0;
+end 
+// V[ 3 ]
+initial
+begin
+	V[3] = 1'b1;
+	# 1055;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #3933 1'b1;
+		# 2733;
+	end
+	V[3] = 1'b0;
+	V[3] = #3933 1'b1;
+	V[3] = #3955 1'b0;
+	V[3] = #2800 1'b1;
+	V[3] = #3866 1'b0;
+	V[3] = #2800 1'b1;
+	V[3] = #3866 1'b0;
+	V[3] = #2800 1'b1;
+	V[3] = #1593 1'b0;
+	V[3] = #1536 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #1900 1'b1;
+		# 1433;
+	end
+	V[3] = 1'b0;
+	V[3] = #365 1'b1;
+	V[3] = #4049 1'b0;
+	V[3] = #5400 1'b1;
+	V[3] = #4600 1'b0;
+	V[3] = #5400 1'b1;
+	V[3] = #551 1'b0;
+	V[3] = #4881 1'b1;
+	V[3] = #3000 1'b0;
+	V[3] = #2843 1'b1;
+	V[3] = #3700 1'b0;
+	V[3] = #6300 1'b1;
+	V[3] = #3700 1'b0;
+	V[3] = #5639 1'b1;
+	# 2333;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #4333 1'b1;
+		# 2333;
+	end
+	V[3] = 1'b0;
+	V[3] = #8751 1'b1;
+	V[3] = #3600 1'b0;
+	V[3] = #1921 1'b1;
+	V[3] = #1257 1'b0;
+	V[3] = #8600 1'b1;
+	V[3] = #10143 1'b0;
+	V[3] = #421 1'b1;
+	V[3] = #2000 1'b0;
+	V[3] = #3000 1'b1;
+	V[3] = #2000 1'b0;
+	V[3] = #2579 1'b1;
+	V[3] = #1928 1'b0;
+	V[3] = #5700 1'b1;
+	V[3] = #3315 1'b0;
+	V[3] = #6000 1'b1;
+	V[3] = #3057 1'b0;
+	V[3] = #1882 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #4533 1'b1;
+		# 2133;
+	end
+	V[3] = 1'b0;
+	V[3] = #2653 1'b1;
+	V[3] = #2710 1'b0;
+	V[3] = #11000 1'b1;
+	V[3] = #7135 1'b0;
+	V[3] = #1867 1'b1;
+	V[3] = #1466 1'b0;
+	V[3] = #1867 1'b1;
+	V[3] = #1466 1'b0;
+	V[3] = #1867 1'b1;
+	V[3] = #2770 1'b0;
+	V[3] = #6800 1'b1;
+	V[3] = #3200 1'b0;
+	V[3] = #6800 1'b1;
+	V[3] = #1052 1'b0;
+	V[3] = #4607 1'b1;
+	V[3] = #3100 1'b0;
+	V[3] = #3317 1'b1;
+	# 1866;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #1467 1'b1;
+		# 1866;
+	end
+	V[3] = 1'b0;
+	V[3] = #3097 1'b1;
+	V[3] = #4000 1'b0;
+	V[3] = #3347 1'b1;
+	V[3] = #2988 1'b0;
+	V[3] = #4800 1'b1;
+	V[3] = #2212 1'b0;
+	V[3] = #5200 1'b1;
+	V[3] = #3200 1'b0;
+	V[3] = #6419 1'b1;
+	V[3] = #3200 1'b0;
+	V[3] = #6877 1'b1;
+	V[3] = #6600 1'b0;
+	V[3] = #8504 1'b1;
+	V[3] = #115 1'b0;
+	V[3] = #2750 1'b1;
+	V[3] = #2250 1'b0;
+	V[3] = #2750 1'b1;
+	V[3] = #5104 1'b0;
+	V[3] = #12400 1'b1;
+	V[3] = #13802 1'b0;
+	V[3] = #10800 1'b1;
+	V[3] = #124 1'b0;
+	V[3] = #4000 1'b1;
+	V[3] = #6000 1'b0;
+	V[3] = #4000 1'b1;
+	V[3] = #5905 1'b0;
+	V[3] = #10192 1'b1;
+	V[3] = #7200 1'b0;
+	V[3] = #2608 1'b1;
+	V[3] = #2631 1'b0;
+	V[3] = #6100 1'b1;
+	V[3] = #1567 1'b0;
+	V[3] = #12000 1'b1;
+	V[3] = #8778 1'b0;
+	V[3] = #5600 1'b1;
+	V[3] = #4400 1'b0;
+	V[3] = #5600 1'b1;
+	V[3] = #7784 1'b0;
+	V[3] = #4500 1'b1;
+	V[3] = #5500 1'b0;
+	V[3] = #4500 1'b1;
+	V[3] = #1040 1'b0;
+	V[3] = #435 1'b1;
+	V[3] = #2200 1'b0;
+	V[3] = #2800 1'b1;
+	V[3] = #2200 1'b0;
+	V[3] = #2365 1'b1;
+	V[3] = #96 1'b0;
+	V[3] = #2600 1'b1;
+	V[3] = #2400 1'b0;
+	V[3] = #2600 1'b1;
+	V[3] = #2304 1'b0;
+	V[3] = #630 1'b1;
+	V[3] = #3200 1'b0;
+	V[3] = #6170 1'b1;
+	V[3] = #6369 1'b0;
+	V[3] = #12800 1'b1;
+	V[3] = #831 1'b0;
+	V[3] = #3129 1'b1;
+	V[3] = #4300 1'b0;
+	V[3] = #4439 1'b1;
+	V[3] = #3700 1'b0;
+	V[3] = #5177 1'b1;
+	V[3] = #10800 1'b0;
+	V[3] = #13559 1'b1;
+	V[3] = #4800 1'b0;
+	V[3] = #5200 1'b1;
+	V[3] = #4800 1'b0;
+	V[3] = #5583 1'b1;
+	V[3] = #8200 1'b0;
+	V[3] = #6313 1'b1;
+	V[3] = #1114 1'b0;
+	V[3] = #2900 1'b1;
+	V[3] = #2100 1'b0;
+	V[3] = #2900 1'b1;
+	V[3] = #2349 1'b0;
+	V[3] = #2500 1'b1;
+	V[3] = #2500 1'b0;
+	V[3] = #2500 1'b1;
+	V[3] = #3818 1'b0;
+	V[3] = #2250 1'b1;
+	V[3] = #2750 1'b0;
+	V[3] = #2250 1'b1;
+	V[3] = #1647 1'b0;
+	V[3] = #4667 1'b1;
+	V[3] = #1999 1'b0;
+	V[3] = #4667 1'b1;
+	V[3] = #1999 1'b0;
+	V[3] = #4667 1'b1;
+	V[3] = #3590 1'b0;
+	V[3] = #13200 1'b1;
+	V[3] = #4352 1'b0;
+	V[3] = #3350 1'b1;
+	V[3] = #1650 1'b0;
+	V[3] = #3350 1'b1;
+	V[3] = #945 1'b0;
+	V[3] = #6400 1'b1;
+	V[3] = #3586 1'b0;
+	V[3] = #808 1'b1;
+	# 1999;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #4667 1'b1;
+		# 1999;
+	end
+	V[3] = 1'b0;
+	V[3] = #3861 1'b1;
+	# 1552;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #3134 1'b1;
+		# 3532;
+	end
+	V[3] = 1'b0;
+	V[3] = #3134 1'b1;
+	V[3] = #1982 1'b0;
+	V[3] = #1993 1'b1;
+	V[3] = #3900 1'b0;
+	V[3] = #4107 1'b1;
+	V[3] = #704 1'b0;
+	V[3] = #2100 1'b1;
+	V[3] = #2900 1'b0;
+	V[3] = #2100 1'b1;
+	V[3] = #2412 1'b0;
+	V[3] = #2034 1'b1;
+	V[3] = #1299 1'b0;
+	V[3] = #2034 1'b1;
+	V[3] = #1299 1'b0;
+	V[3] = #2034 1'b1;
+	V[3] = #1084 1'b0;
+	V[3] = #1474 1'b1;
+	# 2066;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #4600 1'b1;
+		# 2066;
+	end
+	V[3] = 1'b0;
+	V[3] = #3128 1'b1;
+	V[3] = #1647 1'b0;
+	V[3] = #5900 1'b1;
+	V[3] = #4100 1'b0;
+	V[3] = #5900 1'b1;
+	V[3] = #4124 1'b0;
+	V[3] = #2500 1'b1;
+	V[3] = #2500 1'b0;
+	V[3] = #2500 1'b1;
+	V[3] = #829 1'b0;
+	V[3] = #2570 1'b1;
+	V[3] = #3800 1'b0;
+	V[3] = #6200 1'b1;
+	V[3] = #3800 1'b0;
+	V[3] = #3630 1'b1;
+	V[3] = #2402 1'b0;
+	V[3] = #10200 1'b1;
+	V[3] = #7398 1'b0;
+	V[3] = #3448 1'b1;
+	V[3] = #4100 1'b0;
+	V[3] = #5900 1'b1;
+	V[3] = #4100 1'b0;
+	V[3] = #2452 1'b1;
+	V[3] = #4284 1'b0;
+	V[3] = #9000 1'b1;
+	V[3] = #7671 1'b0;
+	V[3] = #5100 1'b1;
+	V[3] = #6590 1'b0;
+	V[3] = #13000 1'b1;
+	V[3] = #4355 1'b0;
+	V[3] = #440 1'b1;
+	# 3866;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #2800 1'b1;
+		# 3866;
+	end
+	V[3] = 1'b0;
+	V[3] = #2362 1'b1;
+	# 96;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #1867 1'b1;
+		# 1466;
+	end
+	V[3] = 1'b0;
+	V[3] = #1867 1'b1;
+	V[3] = #2952 1'b0;
+	V[3] = #4333 1'b1;
+	V[3] = #2333 1'b0;
+	V[3] = #4333 1'b1;
+	V[3] = #2333 1'b0;
+	V[3] = #4333 1'b1;
+	V[3] = #754 1'b0;
+	V[3] = #289 1'b1;
+	# 1566;
+	repeat(2)
+	begin
+		V[3] = 1'b0;
+		V[3] = #1767 1'b1;
+		# 1566;
+	end
+	V[3] = 1'b0;
+end 
+// V[ 2 ]
+initial
+begin
+	V[2] = 1'b1;
+	V[2] = #617 1'b0;
+	V[2] = #13200 1'b1;
+	V[2] = #6183 1'b0;
+	V[2] = #624 1'b1;
+	# 1033;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2300 1'b1;
+		# 1033;
+	end
+	V[2] = 1'b0;
+	V[2] = #1677 1'b1;
+	# 594;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3067 1'b1;
+		# 3599;
+	end
+	V[2] = 1'b0;
+	V[2] = #3067 1'b1;
+	V[2] = #4460 1'b0;
+	V[2] = #13800 1'b1;
+	V[2] = #7573 1'b0;
+	V[2] = #4000 1'b1;
+	V[2] = #6000 1'b0;
+	V[2] = #4000 1'b1;
+	V[2] = #4196 1'b0;
+	V[2] = #2550 1'b1;
+	V[2] = #2450 1'b0;
+	V[2] = #2550 1'b1;
+	V[2] = #1428 1'b0;
+	V[2] = #2699 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #6800 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #8332 1'b1;
+	V[2] = #5500 1'b0;
+	V[2] = #2488 1'b1;
+	V[2] = #2400 1'b0;
+	V[2] = #2600 1'b1;
+	V[2] = #2400 1'b0;
+	V[2] = #2338 1'b1;
+	# 1333;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2000 1'b1;
+		# 1333;
+	end
+	V[2] = 1'b0;
+	V[2] = #44 1'b1;
+	V[2] = #593 1'b0;
+	V[2] = #5300 1'b1;
+	V[2] = #4700 1'b0;
+	V[2] = #5300 1'b1;
+	V[2] = #4107 1'b0;
+	V[2] = #5077 1'b1;
+	V[2] = #8600 1'b0;
+	V[2] = #6323 1'b1;
+	V[2] = #1046 1'b0;
+	V[2] = #3050 1'b1;
+	V[2] = #1950 1'b0;
+	V[2] = #3050 1'b1;
+	V[2] = #1638 1'b0;
+	V[2] = #6200 1'b1;
+	V[2] = #3800 1'b0;
+	V[2] = #6200 1'b1;
+	V[2] = #4554 1'b0;
+	V[2] = #2550 1'b1;
+	V[2] = #2450 1'b0;
+	V[2] = #2550 1'b1;
+	V[2] = #962 1'b0;
+	V[2] = #1203 1'b1;
+	V[2] = #3000 1'b0;
+	V[2] = #7000 1'b1;
+	V[2] = #3000 1'b0;
+	V[2] = #11695 1'b1;
+	V[2] = #11800 1'b0;
+	V[2] = #4838 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #6800 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #4674 1'b1;
+	V[2] = #3400 1'b0;
+	V[2] = #6600 1'b1;
+	V[2] = #3400 1'b0;
+	V[2] = #12267 1'b1;
+	V[2] = #3600 1'b0;
+	V[2] = #6400 1'b1;
+	V[2] = #3600 1'b0;
+	V[2] = #3178 1'b1;
+	V[2] = #4100 1'b0;
+	V[2] = #3045 1'b1;
+	V[2] = #487 1'b0;
+	V[2] = #5900 1'b1;
+	V[2] = #4100 1'b0;
+	V[2] = #5900 1'b1;
+	V[2] = #4950 1'b0;
+	V[2] = #1667 1'b1;
+	V[2] = #1666 1'b0;
+	V[2] = #1667 1'b1;
+	V[2] = #1666 1'b0;
+	V[2] = #1667 1'b1;
+	V[2] = #2050 1'b0;
+	V[2] = #3333 1'b1;
+	V[2] = #3333 1'b0;
+	V[2] = #3333 1'b1;
+	V[2] = #3333 1'b0;
+	V[2] = #3333 1'b1;
+	V[2] = #4310 1'b0;
+	V[2] = #2000 1'b1;
+	V[2] = #3000 1'b0;
+	V[2] = #2000 1'b1;
+	V[2] = #305 1'b0;
+	V[2] = #1965 1'b1;
+	# 2999;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3667 1'b1;
+		# 2999;
+	end
+	V[2] = 1'b0;
+	V[2] = #3136 1'b1;
+	V[2] = #4700 1'b0;
+	V[2] = #4208 1'b1;
+	V[2] = #2250 1'b0;
+	V[2] = #2750 1'b1;
+	V[2] = #2250 1'b0;
+	V[2] = #4053 1'b1;
+	# 3266;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3400 1'b1;
+		# 3266;
+	end
+	V[2] = 1'b0;
+	V[2] = #3214 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2134 1'b1;
+		# 1199;
+	end
+	V[2] = 1'b0;
+	V[2] = #2069 1'b1;
+	# 3399;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3267 1'b1;
+		# 3399;
+	end
+	V[2] = 1'b0;
+	V[2] = #1880 1'b1;
+	# 970;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #1367 1'b1;
+		# 1966;
+	end
+	V[2] = 1'b0;
+	V[2] = #1367 1'b1;
+	V[2] = #997 1'b0;
+	V[2] = #3148 1'b1;
+	# 2333;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #4333 1'b1;
+		# 2333;
+	end
+	V[2] = 1'b0;
+	V[2] = #1187 1'b1;
+	V[2] = #1378 1'b0;
+	V[2] = #6300 1'b1;
+	V[2] = #3700 1'b0;
+	V[2] = #6300 1'b1;
+	V[2] = #2694 1'b0;
+	V[2] = #3200 1'b1;
+	V[2] = #3466 1'b0;
+	V[2] = #3200 1'b1;
+	V[2] = #3466 1'b0;
+	V[2] = #3200 1'b1;
+	V[2] = #3096 1'b0;
+	V[2] = #2149 1'b1;
+	V[2] = #2250 1'b0;
+	V[2] = #2750 1'b1;
+	V[2] = #2250 1'b0;
+	V[2] = #721 1'b1;
+	V[2] = #9400 1'b0;
+	V[2] = #11988 1'b1;
+	# 3066;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3600 1'b1;
+		# 3066;
+	end
+	V[2] = 1'b0;
+	V[2] = #2094 1'b1;
+	V[2] = #2020 1'b0;
+	V[2] = #2600 1'b1;
+	V[2] = #2400 1'b0;
+	V[2] = #2600 1'b1;
+	V[2] = #380 1'b0;
+	V[2] = #1560 1'b1;
+	# 1266;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2067 1'b1;
+		# 1266;
+	end
+	V[2] = 1'b0;
+	V[2] = #5884 1'b1;
+	V[2] = #9600 1'b0;
+	V[2] = #5024 1'b1;
+	# 3164;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3333 1'b1;
+		# 3333;
+	end
+	V[2] = 1'b0;
+	V[2] = #3333 1'b1;
+	V[2] = #171 1'b0;
+	V[2] = #3096 1'b1;
+	V[2] = #4300 1'b0;
+	V[2] = #2604 1'b1;
+	V[2] = #2096 1'b0;
+	V[2] = #5300 1'b1;
+	V[2] = #4700 1'b0;
+	V[2] = #5300 1'b1;
+	V[2] = #4941 1'b0;
+	V[2] = #4267 1'b1;
+	V[2] = #2399 1'b0;
+	V[2] = #4267 1'b1;
+	V[2] = #2399 1'b0;
+	V[2] = #4267 1'b1;
+	V[2] = #3074 1'b0;
+	V[2] = #5000 1'b1;
+	V[2] = #9332 1'b0;
+	V[2] = #8600 1'b1;
+	V[2] = #5532 1'b0;
+	V[2] = #6900 1'b1;
+	V[2] = #3100 1'b0;
+	V[2] = #6900 1'b1;
+	V[2] = #1626 1'b0;
+	V[2] = #2149 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #5608 1'b1;
+	V[2] = #8600 1'b0;
+	V[2] = #19726 1'b1;
+	V[2] = #6800 1'b0;
+	V[2] = #4003 1'b1;
+	V[2] = #5900 1'b0;
+	V[2] = #4014 1'b1;
+	# 1267;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #1867 1'b1;
+		# 1466;
+	end
+	V[2] = 1'b0;
+	V[2] = #1867 1'b1;
+	V[2] = #200 1'b0;
+	V[2] = #4237 1'b1;
+	V[2] = #3800 1'b0;
+	V[2] = #3519 1'b1;
+	# 999;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2334 1'b1;
+		# 999;
+	end
+	V[2] = 1'b0;
+	V[2] = #4020 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #3800 1'b1;
+		# 2866;
+	end
+	V[2] = 1'b0;
+	V[2] = #561 1'b1;
+	# 482;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #1700 1'b1;
+		# 1633;
+	end
+	V[2] = 1'b0;
+	V[2] = #1700 1'b1;
+	V[2] = #1152 1'b0;
+	V[2] = #2164 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #6800 1'b1;
+	V[2] = #3200 1'b0;
+	V[2] = #4636 1'b1;
+	V[2] = #593 1'b0;
+	V[2] = #5400 1'b1;
+	V[2] = #4227 1'b0;
+	V[2] = #3600 1'b1;
+	V[2] = #3066 1'b0;
+	V[2] = #3600 1'b1;
+	V[2] = #3066 1'b0;
+	V[2] = #3600 1'b1;
+	V[2] = #4015 1'b0;
+	V[2] = #2400 1'b1;
+	V[2] = #2600 1'b0;
+	V[2] = #2400 1'b1;
+	V[2] = #3399 1'b0;
+	V[2] = #4067 1'b1;
+	V[2] = #2599 1'b0;
+	V[2] = #4067 1'b1;
+	V[2] = #2599 1'b0;
+	V[2] = #4067 1'b1;
+	V[2] = #635 1'b0;
+	V[2] = #1613 1'b1;
+	V[2] = #2000 1'b0;
+	V[2] = #3000 1'b1;
+	V[2] = #2000 1'b0;
+	V[2] = #1650 1'b1;
+	# 1166;
+	repeat(2)
+	begin
+		V[2] = 1'b0;
+		V[2] = #2167 1'b1;
+		# 1166;
+	end
+	V[2] = 1'b0;
+	V[2] = #1905 1'b1;
+	V[2] = #622 1'b0;
+	V[2] = #6400 1'b1;
+end 
+// V[ 1 ]
+initial
+begin
+	V[1] = 1'b1;
+	V[1] = #1473 1'b0;
+	V[1] = #4000 1'b1;
+	V[1] = #6000 1'b0;
+	V[1] = #4000 1'b1;
+	V[1] = #4527 1'b0;
+	V[1] = #4619 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #6500 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #5207 1'b1;
+	V[1] = #3400 1'b0;
+	V[1] = #6600 1'b1;
+	V[1] = #3400 1'b0;
+	V[1] = #5318 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3800 1'b1;
+		# 2866;
+	end
+	V[1] = 1'b0;
+	V[1] = #2248 1'b1;
+	V[1] = #11000 1'b0;
+	V[1] = #13955 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #6500 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #8109 1'b1;
+	V[1] = #6200 1'b0;
+	V[1] = #6746 1'b1;
+	V[1] = #178 1'b0;
+	V[1] = #5600 1'b1;
+	V[1] = #4400 1'b0;
+	V[1] = #5600 1'b1;
+	V[1] = #4222 1'b0;
+	V[1] = #2149 1'b1;
+	V[1] = #4400 1'b0;
+	V[1] = #5600 1'b1;
+	V[1] = #4400 1'b0;
+	V[1] = #3451 1'b1;
+	V[1] = #2780 1'b0;
+	V[1] = #6400 1'b1;
+	V[1] = #820 1'b0;
+	V[1] = #642 1'b1;
+	# 1233;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #2100 1'b1;
+		# 1233;
+	end
+	V[1] = 1'b0;
+	V[1] = #1459 1'b1;
+	V[1] = #642 1'b0;
+	V[1] = #6100 1'b1;
+	V[1] = #3900 1'b0;
+	V[1] = #6100 1'b1;
+	V[1] = #8806 1'b0;
+	V[1] = #11600 1'b1;
+	V[1] = #2852 1'b0;
+	V[1] = #1401 1'b1;
+	V[1] = #6400 1'b0;
+	V[1] = #12214 1'b1;
+	V[1] = #6800 1'b0;
+	V[1] = #17041 1'b1;
+	V[1] = #5500 1'b0;
+	V[1] = #4500 1'b1;
+	V[1] = #5500 1'b0;
+	V[1] = #2147 1'b1;
+	V[1] = #1600 1'b0;
+	V[1] = #3400 1'b1;
+	V[1] = #1600 1'b0;
+	V[1] = #3458 1'b1;
+	V[1] = #9600 1'b0;
+	V[1] = #9176 1'b1;
+	V[1] = #1650 1'b0;
+	V[1] = #3350 1'b1;
+	V[1] = #1650 1'b0;
+	V[1] = #5638 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #4200 1'b1;
+		# 2466;
+	end
+	V[1] = 1'b0;
+	V[1] = #4569 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #4400 1'b1;
+		# 2266;
+	end
+	V[1] = 1'b0;
+	V[1] = #7102 1'b1;
+	V[1] = #4000 1'b0;
+	V[1] = #6000 1'b1;
+	V[1] = #4000 1'b0;
+	V[1] = #393 1'b1;
+	V[1] = #7800 1'b0;
+	V[1] = #14136 1'b1;
+	# 1066;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #2267 1'b1;
+		# 1066;
+	end
+	V[1] = 1'b0;
+	V[1] = #1241 1'b1;
+	# 3199;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3467 1'b1;
+		# 3199;
+	end
+	V[1] = 1'b0;
+	V[1] = #4245 1'b1;
+	# 3932;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #2734 1'b1;
+		# 3932;
+	end
+	V[1] = 1'b0;
+	V[1] = #966 1'b1;
+	V[1] = #622 1'b0;
+	V[1] = #2200 1'b1;
+	V[1] = #2800 1'b0;
+	V[1] = #2200 1'b1;
+	V[1] = #2178 1'b0;
+	V[1] = #4294 1'b1;
+	V[1] = #4300 1'b0;
+	V[1] = #5700 1'b1;
+	V[1] = #4300 1'b0;
+	V[1] = #1406 1'b1;
+	V[1] = #6174 1'b0;
+	V[1] = #12200 1'b1;
+	V[1] = #2684 1'b0;
+	V[1] = #6100 1'b1;
+	V[1] = #5058 1'b0;
+	V[1] = #6500 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #6500 1'b1;
+	V[1] = #3379 1'b0;
+	V[1] = #6700 1'b1;
+	V[1] = #1854 1'b0;
+	V[1] = #2000 1'b1;
+	V[1] = #1333 1'b0;
+	V[1] = #2000 1'b1;
+	V[1] = #1333 1'b0;
+	V[1] = #2000 1'b1;
+	V[1] = #685 1'b0;
+	V[1] = #1205 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3800 1'b1;
+		# 2866;
+	end
+	V[1] = 1'b0;
+	V[1] = #2597 1'b1;
+	# 191;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #1667 1'b1;
+		# 1666;
+	end
+	V[1] = 1'b0;
+	V[1] = #1667 1'b1;
+	V[1] = #5440 1'b0;
+	V[1] = #5300 1'b1;
+	V[1] = #4700 1'b0;
+	V[1] = #5300 1'b1;
+	V[1] = #736 1'b0;
+	V[1] = #1280 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #1900 1'b1;
+		# 1433;
+	end
+	V[1] = 1'b0;
+	V[1] = #621 1'b1;
+	V[1] = #804 1'b0;
+	V[1] = #5300 1'b1;
+	V[1] = #3896 1'b0;
+	V[1] = #767 1'b1;
+	# 3133;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3533 1'b1;
+		# 3133;
+	end
+	V[1] = 1'b0;
+	V[1] = #2768 1'b1;
+	# 1841;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3800 1'b1;
+		# 2866;
+	end
+	V[1] = 1'b0;
+	V[1] = #3800 1'b1;
+	V[1] = #1027 1'b0;
+	V[1] = #3011 1'b1;
+	V[1] = #3600 1'b0;
+	V[1] = #3389 1'b1;
+	# 310;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3600 1'b1;
+		# 3066;
+	end
+	V[1] = 1'b0;
+	V[1] = #3600 1'b1;
+	V[1] = #6396 1'b0;
+	V[1] = #13800 1'b1;
+	V[1] = #2934 1'b0;
+	V[1] = #1667 1'b1;
+	V[1] = #1666 1'b0;
+	V[1] = #1667 1'b1;
+	V[1] = #1666 1'b0;
+	V[1] = #1667 1'b1;
+	V[1] = #2809 1'b0;
+	V[1] = #6200 1'b1;
+	V[1] = #8743 1'b0;
+	V[1] = #8800 1'b1;
+	V[1] = #4743 1'b0;
+	V[1] = #331 1'b1;
+	V[1] = #2750 1'b0;
+	V[1] = #2250 1'b1;
+	V[1] = #2750 1'b0;
+	V[1] = #1919 1'b1;
+	V[1] = #232 1'b0;
+	V[1] = #4200 1'b1;
+	V[1] = #5646 1'b0;
+	V[1] = #2950 1'b1;
+	V[1] = #2050 1'b0;
+	V[1] = #2950 1'b1;
+	V[1] = #2375 1'b0;
+	V[1] = #4133 1'b1;
+	V[1] = #2533 1'b0;
+	V[1] = #4133 1'b1;
+	V[1] = #2533 1'b0;
+	V[1] = #4133 1'b1;
+	V[1] = #2132 1'b0;
+	V[1] = #334 1'b1;
+	# 2466;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #4200 1'b1;
+		# 2466;
+	end
+	V[1] = 1'b0;
+	V[1] = #4477 1'b1;
+	# 1666;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #1667 1'b1;
+		# 1666;
+	end
+	V[1] = 1'b0;
+	V[1] = #1059 1'b1;
+	# 850;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #2867 1'b1;
+		# 3799;
+	end
+	V[1] = 1'b0;
+	V[1] = #2867 1'b1;
+	V[1] = #2951 1'b0;
+	V[1] = #1178 1'b1;
+	# 2933;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3733 1'b1;
+		# 2933;
+	end
+	V[1] = 1'b0;
+	V[1] = #2557 1'b1;
+	V[1] = #2144 1'b0;
+	V[1] = #4400 1'b1;
+	V[1] = #3456 1'b0;
+	V[1] = #2620 1'b1;
+	V[1] = #3400 1'b0;
+	V[1] = #5878 1'b1;
+	V[1] = #2150 1'b0;
+	V[1] = #2850 1'b1;
+	V[1] = #2150 1'b0;
+	V[1] = #2532 1'b1;
+	V[1] = #4000 1'b0;
+	V[1] = #4420 1'b1;
+	# 583;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #1767 1'b1;
+		# 1566;
+	end
+	V[1] = 1'b0;
+	V[1] = #1767 1'b1;
+	V[1] = #984 1'b0;
+	V[1] = #2534 1'b1;
+	V[1] = #3500 1'b0;
+	V[1] = #6349 1'b1;
+	V[1] = #1600 1'b0;
+	V[1] = #3400 1'b1;
+	V[1] = #1600 1'b0;
+	V[1] = #1017 1'b1;
+	# 1251;
+	repeat(2)
+	begin
+		V[1] = 1'b0;
+		V[1] = #3867 1'b1;
+		# 2799;
+	end
+	V[1] = 1'b0;
+	V[1] = #3867 1'b1;
+	V[1] = #1550 1'b0;
+	V[1] = #3988 1'b1;
+	V[1] = #5000 1'b0;
+	V[1] = #5000 1'b1;
+	V[1] = #5000 1'b0;
+end 
+// V[ 0 ]
+initial
+begin
+	V[0] = 1'b1;
+	# 1542;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #3533 1'b1;
+		# 3133;
+	end
+	V[0] = 1'b0;
+	V[0] = #3533 1'b1;
+	V[0] = #3092 1'b0;
+	V[0] = #1367 1'b1;
+	V[0] = #1966 1'b0;
+	V[0] = #1367 1'b1;
+	V[0] = #1966 1'b0;
+	V[0] = #1367 1'b1;
+	V[0] = #2256 1'b0;
+	V[0] = #2900 1'b1;
+	V[0] = #2100 1'b0;
+	V[0] = #2900 1'b1;
+	V[0] = #312 1'b0;
+	V[0] = #239 1'b1;
+	V[0] = #4100 1'b0;
+	V[0] = #5900 1'b1;
+	V[0] = #4100 1'b0;
+	V[0] = #6900 1'b1;
+	# 1499;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #1834 1'b1;
+		# 1499;
+	end
+	V[0] = 1'b0;
+	V[0] = #596 1'b1;
+	V[0] = #273 1'b0;
+	V[0] = #6400 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #6400 1'b1;
+	V[0] = #5051 1'b0;
+	V[0] = #12400 1'b1;
+	V[0] = #5876 1'b0;
+	V[0] = #1921 1'b1;
+	# 1266;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #2067 1'b1;
+		# 1266;
+	end
+	V[0] = 1'b0;
+	V[0] = #147 1'b1;
+	V[0] = #4933 1'b0;
+	V[0] = #13000 1'b1;
+	V[0] = #2067 1'b0;
+	V[0] = #3172 1'b1;
+	V[0] = #1650 1'b0;
+	V[0] = #3350 1'b1;
+	V[0] = #1650 1'b0;
+	V[0] = #1086 1'b1;
+	V[0] = #3200 1'b0;
+	V[0] = #6800 1'b1;
+	V[0] = #3200 1'b0;
+	V[0] = #5892 1'b1;
+	V[0] = #4168 1'b0;
+	V[0] = #5700 1'b1;
+	V[0] = #132 1'b0;
+	V[0] = #6066 1'b1;
+	V[0] = #3200 1'b0;
+	V[0] = #734 1'b1;
+	V[0] = #2382 1'b0;
+	V[0] = #6200 1'b1;
+	V[0] = #3800 1'b0;
+	V[0] = #6200 1'b1;
+	V[0] = #1418 1'b0;
+	V[0] = #142 1'b1;
+	V[0] = #5600 1'b0;
+	V[0] = #4400 1'b1;
+	V[0] = #5600 1'b0;
+	V[0] = #12682 1'b1;
+	V[0] = #6400 1'b0;
+	V[0] = #7097 1'b1;
+	V[0] = #3800 1'b0;
+	V[0] = #6200 1'b1;
+	V[0] = #3800 1'b0;
+	V[0] = #6201 1'b1;
+	# 2266;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #4400 1'b1;
+		# 2266;
+	end
+	V[0] = 1'b0;
+	V[0] = #3823 1'b1;
+	V[0] = #4900 1'b0;
+	V[0] = #3757 1'b1;
+	V[0] = #1277 1'b0;
+	V[0] = #5500 1'b1;
+	V[0] = #4500 1'b0;
+	V[0] = #5500 1'b1;
+	V[0] = #3223 1'b0;
+	V[0] = #2196 1'b1;
+	V[0] = #7800 1'b0;
+	V[0] = #10820 1'b1;
+	V[0] = #2700 1'b0;
+	V[0] = #2300 1'b1;
+	V[0] = #2700 1'b0;
+	V[0] = #1484 1'b1;
+	V[0] = #2139 1'b0;
+	V[0] = #4400 1'b1;
+	V[0] = #3461 1'b0;
+	V[0] = #606 1'b1;
+	# 3932;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #2734 1'b1;
+		# 3932;
+	end
+	V[0] = 1'b0;
+	V[0] = #2130 1'b1;
+	V[0] = #363 1'b0;
+	V[0] = #6200 1'b1;
+	V[0] = #3800 1'b0;
+	V[0] = #6200 1'b1;
+	V[0] = #3437 1'b0;
+	V[0] = #2805 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #6400 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #4493 1'b1;
+	# 2333;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #4333 1'b1;
+		# 2333;
+	end
+	V[0] = 1'b0;
+	V[0] = #3437 1'b1;
+	V[0] = #2955 1'b0;
+	V[0] = #6700 1'b1;
+	V[0] = #3300 1'b0;
+	V[0] = #6700 1'b1;
+	V[0] = #345 1'b0;
+	V[0] = #1331 1'b1;
+	V[0] = #4900 1'b0;
+	V[0] = #3769 1'b1;
+	# 1329;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #1534 1'b1;
+		# 1799;
+	end
+	V[0] = 1'b0;
+	V[0] = #1534 1'b1;
+	V[0] = #1557 1'b0;
+	V[0] = #2134 1'b1;
+	V[0] = #1199 1'b0;
+	V[0] = #2134 1'b1;
+	V[0] = #1199 1'b0;
+	V[0] = #2134 1'b1;
+	V[0] = #845 1'b0;
+	V[0] = #1867 1'b1;
+	V[0] = #1466 1'b0;
+	V[0] = #1867 1'b1;
+	V[0] = #1466 1'b0;
+	V[0] = #1867 1'b1;
+	V[0] = #736 1'b0;
+	V[0] = #4178 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #6400 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #3142 1'b1;
+	V[0] = #2350 1'b0;
+	V[0] = #2650 1'b1;
+	V[0] = #2350 1'b0;
+	V[0] = #3246 1'b1;
+	V[0] = #1650 1'b0;
+	V[0] = #3350 1'b1;
+	V[0] = #1650 1'b0;
+	V[0] = #4767 1'b1;
+	V[0] = #4100 1'b0;
+	V[0] = #5941 1'b1;
+	# 2666;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #4000 1'b1;
+		# 2666;
+	end
+	V[0] = 1'b0;
+	V[0] = #1028 1'b1;
+	V[0] = #649 1'b0;
+	V[0] = #2500 1'b1;
+	V[0] = #2500 1'b0;
+	V[0] = #2500 1'b1;
+	V[0] = #1851 1'b0;
+	V[0] = #370 1'b1;
+	# 999;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #2334 1'b1;
+		# 999;
+	end
+	V[0] = 1'b0;
+	V[0] = #1965 1'b1;
+	V[0] = #662 1'b0;
+	V[0] = #3250 1'b1;
+	V[0] = #1750 1'b0;
+	V[0] = #3250 1'b1;
+	V[0] = #1598 1'b0;
+	V[0] = #2600 1'b1;
+	V[0] = #2400 1'b0;
+	V[0] = #2600 1'b1;
+	V[0] = #1890 1'b0;
+	V[0] = #2118 1'b1;
+	V[0] = #5000 1'b0;
+	V[0] = #5000 1'b1;
+	V[0] = #5000 1'b0;
+	V[0] = #4189 1'b1;
+	V[0] = #2000 1'b0;
+	V[0] = #3000 1'b1;
+	V[0] = #2000 1'b0;
+	V[0] = #2147 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #1900 1'b1;
+		# 1433;
+	end
+	V[0] = 1'b0;
+	V[0] = #1447 1'b1;
+	# 610;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #4067 1'b1;
+		# 2599;
+	end
+	V[0] = 1'b0;
+	V[0] = #4067 1'b1;
+	V[0] = #1991 1'b0;
+	V[0] = #3654 1'b1;
+	V[0] = #3200 1'b0;
+	V[0] = #3146 1'b1;
+	V[0] = #4248 1'b0;
+	V[0] = #4200 1'b1;
+	V[0] = #3684 1'b0;
+	V[0] = #5100 1'b1;
+	V[0] = #2768 1'b0;
+	V[0] = #1104 1'b1;
+	V[0] = #3000 1'b0;
+	V[0] = #2000 1'b1;
+	V[0] = #3000 1'b0;
+	V[0] = #896 1'b1;
+	V[0] = #1363 1'b0;
+	V[0] = #3150 1'b1;
+	V[0] = #1850 1'b0;
+	V[0] = #3150 1'b1;
+	V[0] = #526 1'b0;
+	V[0] = #3867 1'b1;
+	V[0] = #2799 1'b0;
+	V[0] = #3867 1'b1;
+	V[0] = #2799 1'b0;
+	V[0] = #3867 1'b1;
+	V[0] = #2762 1'b0;
+	V[0] = #1142 1'b1;
+	V[0] = #3600 1'b0;
+	V[0] = #7195 1'b1;
+	V[0] = #9600 1'b0;
+	V[0] = #8463 1'b1;
+	# 2532;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #3400 1'b1;
+		# 3266;
+	end
+	V[0] = 1'b0;
+	V[0] = #3400 1'b1;
+	V[0] = #1978 1'b0;
+	V[0] = #2000 1'b1;
+	V[0] = #1333 1'b0;
+	V[0] = #2000 1'b1;
+	V[0] = #1333 1'b0;
+	V[0] = #2000 1'b1;
+	V[0] = #92 1'b0;
+	V[0] = #1714 1'b1;
+	V[0] = #2900 1'b0;
+	V[0] = #2100 1'b1;
+	V[0] = #2900 1'b0;
+	V[0] = #386 1'b1;
+	V[0] = #2726 1'b0;
+	V[0] = #2200 1'b1;
+	V[0] = #2800 1'b0;
+	V[0] = #2200 1'b1;
+	V[0] = #1173 1'b0;
+	V[0] = #1834 1'b1;
+	V[0] = #1499 1'b0;
+	V[0] = #1834 1'b1;
+	V[0] = #1499 1'b0;
+	V[0] = #1834 1'b1;
+	V[0] = #401 1'b0;
+	V[0] = #1079 1'b1;
+	V[0] = #1700 1'b0;
+	V[0] = #3300 1'b1;
+	V[0] = #1700 1'b0;
+	V[0] = #3182 1'b1;
+	V[0] = #4100 1'b0;
+	V[0] = #5900 1'b1;
+	V[0] = #4100 1'b0;
+	V[0] = #5872 1'b1;
+	V[0] = #4300 1'b0;
+	V[0] = #7379 1'b1;
+	V[0] = #4300 1'b0;
+	V[0] = #5700 1'b1;
+	V[0] = #4300 1'b0;
+	V[0] = #3088 1'b1;
+	# 1921;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #4267 1'b1;
+		# 2399;
+	end
+	V[0] = 1'b0;
+	V[0] = #4267 1'b1;
+	V[0] = #480 1'b0;
+	V[0] = #600 1'b1;
+	V[0] = #4700 1'b0;
+	V[0] = #5300 1'b1;
+	V[0] = #4700 1'b0;
+	V[0] = #6111 1'b1;
+	V[0] = #1600 1'b0;
+	V[0] = #3400 1'b1;
+	V[0] = #1600 1'b0;
+	V[0] = #1989 1'b1;
+	V[0] = #1362 1'b0;
+	V[0] = #5300 1'b1;
+	V[0] = #5135 1'b0;
+	V[0] = #3467 1'b1;
+	V[0] = #3199 1'b0;
+	V[0] = #3467 1'b1;
+	V[0] = #3199 1'b0;
+	V[0] = #3467 1'b1;
+	V[0] = #2560 1'b0;
+	V[0] = #5800 1'b1;
+	V[0] = #4200 1'b0;
+	V[0] = #5800 1'b1;
+	V[0] = #3044 1'b0;
+	V[0] = #1915 1'b1;
+	# 1266;
+	repeat(2)
+	begin
+		V[0] = 1'b0;
+		V[0] = #2067 1'b1;
+		# 1266;
+	end
+	V[0] = 1'b0;
+end 
+endmodule
+
